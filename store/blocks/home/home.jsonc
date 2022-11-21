@@ -1,0 +1,8 @@
+{
+  "store.home": { 
+    "blocks": [
+      "responsive-layout.desktop#Home",
+      "responsive-layout.mobile#Home"
+    ]
+  }
+}

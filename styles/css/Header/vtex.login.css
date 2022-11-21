@@ -1,0 +1,18 @@
+.label{
+    font-size: 0px;
+}
+.label::before{
+    content: "";
+    width: 35px;
+    height: 41px;
+    background-image: url(assets/header/img9.png);
+    background-size: contain;
+    display: block;
+}
+
+
+@media (max-width:768px){
+    .label{
+        display: block;
+    }
+}

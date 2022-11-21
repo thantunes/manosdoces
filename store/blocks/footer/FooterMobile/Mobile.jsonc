@@ -1,0 +1,184 @@
+{
+  //Manos Doces
+  "rich-text#QuemSomos": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Quem Somos](/Institucional/quem-somos)"
+    }
+  },
+  "rich-text#NossasLojas": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Nossas Lojas](/Institucional/nossas-lojas)"
+    }
+  },
+  "rich-text#TermoseCondições": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Termos e Condições](/Institucional/termos-e-condicoes)"
+    }
+  },
+  "rich-text#PolíticasdeTrocaseDevoluções": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Políticas de Trocas e Devoluções](/Institucional/politica-de-trocas-e-devolucoes)"
+    }
+  },
+  "rich-text#PedidoPessoaJurídica": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Pedido Pessoa Jurídica](/Institucional/pedido-pessoa-juridica)"
+    }
+  },
+  "rich-text#ProgramaFidelidade": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Programa Fidelidade](/)"
+    }
+  },
+  "rich-text#TrabalheConosco": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Trabalhe Conosco](/Institucional/trabalhe-conosco)"
+    }
+  },
+  //Explore A loja
+  "rich-text#BiscoitoseSnacks": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Biscoitos e Snacks](/biscoitos-e-snacks)"
+    }
+  },
+  "rich-text#Chocolates-footer": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Chocolates](/chocolates)"
+    }
+  },
+  "rich-text#DoceseSobremesas": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Doces e Sobremesas](/doces-e-sobremesas)"
+    }
+  },
+  "rich-text#Especial": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Especial](/especial)"
+    }
+  },
+  "rich-text#FestaeProdução": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Festa e Produção](/festa-e-producao)"
+    }
+  },
+  "rich-text#Bebidas-footer": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Bebidas](/bebidas)"
+    }
+  },
+  //Pagamentos
+  "rich-text#Pagamentos": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Pagamentos](/Suporte/pagamentos)"
+    }
+  },
+  "rich-text#DúvidasFrequentes": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Dúvidas Frequentes](/Suporte/duvidas-frequentes)"
+    }
+  },
+  "rich-text#FaleConosco": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[Fale Conosco](/Suporte/fale-conosco)"
+    }
+  },
+  "rich-text#SAC": {
+    "props": {
+      "blockClass": "FooterText",
+      "text": "[SAC](/)"
+    }
+  },
+
+  //Disclosure's Define
+
+  "disclosure-layout#ManosDoces": {
+    "children": [
+      "disclosure-trigger#ManosDoces",
+      "disclosure-content#ManosDoces"
+    ]
+  },
+  "disclosure-trigger#ManosDoces": {
+    "children": ["rich-text#ManoDoces"]
+  },
+  "disclosure-content#ManosDoces": {
+    "children": ["flex-layout.col#ManosDoces"]
+  },
+  "flex-layout.col#ManosDoces": {
+    "props": {
+      "blockClass": ["disclosure-content"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#QuemSomos",
+      "rich-text#NossasLojas",
+      "rich-text#TermoseCondições",
+      "rich-text#PolíticasdeTrocaseDevoluções",
+      "rich-text#PedidoPessoaJurídica",
+      "rich-text#ProgramaFidelidade",
+      "rich-text#TrabalheConosco"
+    ]
+  },
+  "disclosure-layout#Explorealoja": {
+    "children": [
+      "disclosure-trigger#Explorealoja",
+      "disclosure-content#Explorealoja"
+    ]
+  },
+  "disclosure-trigger#Explorealoja": {
+    "children": ["rich-text#Explorealoja"]
+  },
+  "disclosure-content#Explorealoja": {
+    "children": ["flex-layout.col#Explorealoja"]
+  },
+  "flex-layout.col#Explorealoja": {
+    "props": {
+      "blockClass": ["disclosure-content"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#BiscoitoseSnacks",
+      "rich-text#Chocolates-footer",
+      "rich-text#DoceseSobremesas",
+      "rich-text#Especial",
+      "rich-text#FestaeProdução",
+      "rich-text#Bebidas-footer"
+    ]
+  },
+  "disclosure-layout#Suporte": {
+    "children": ["disclosure-trigger#Suporte", "disclosure-content#Suporte"]
+  },
+  "disclosure-trigger#Suporte": {
+    "children": ["rich-text#Suporte"]
+  },
+  "disclosure-content#Suporte": {
+    "children": ["flex-layout.col#Suporte"]
+  },
+  "flex-layout.col#Suporte": {
+    "props": {
+      "blockClass": ["disclosure-content"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#Pagamentos",
+      "rich-text#DúvidasFrequentes",
+      "rich-text#FaleConosco",
+      "rich-text#SAC"
+    ]
+  }
+}

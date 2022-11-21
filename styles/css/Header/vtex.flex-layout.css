@@ -1,0 +1,23 @@
+.flexRow--Main-header-desktop{
+    background-image: url(assets/header/img42.png);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-size: cover;
+}
+.flexRowContent--Main-header-desktop{
+    align-items: center;
+}
+.flexRowContent--Main-header-desktop{
+    height: 100%;
+}
+.flexCol--headerContent{
+    gap: 15px;
+}
+
+@media (max-width:768px){
+    .flexRowContent--main-header-mobile{
+        background: #061066;
+    }
+}

@@ -1,0 +1,15 @@
+.imageElement--HomeSliderImage{
+    width: 100%;
+}
+.imageElement--DepartImage{
+    margin: 40px auto;
+}
+.discountInsideContainer{
+    display: none;
+}
+
+@media (max-width:768px){
+    .imageElement--DepartImage{
+        display: none;
+    }
+}

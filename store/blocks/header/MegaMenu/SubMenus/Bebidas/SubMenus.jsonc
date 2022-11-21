@@ -1,0 +1,44 @@
+{
+  "vtex.menu@2.x:submenu#Bebidas": {
+    "children": ["vtex.menu@2.x:menu#submenuBebidas"]
+  },
+  "vtex.menu@2.x:menu#submenuBebidas": {
+    "children": [
+      "rich-text#Achocolatados",
+      "rich-text#Aguas",
+      "rich-text#Destilados",
+      "rich-text#SucosEchas",
+      "rich-text#VinhosEespumantes"
+    ]
+  },
+  "rich-text#Achocolatados": {
+    "props": {
+      "text": "[Achocolatados](/bebidas/achocolatados)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Aguas": {
+    "props": {
+      "text": "[Aguas](/bebidas/aguas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Destilados": {
+    "props": {
+      "text": "[Destilados](/bebidas/destilados)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#SucosEchas": {
+    "props": {
+      "text": "[Sucos e chás](/bebidas/sucos-e-chas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#VinhosEespumantes": {
+    "props": {
+      "text": "[Vinhos e Espumantes](/bebidas/vinhos-e-espumantes)",
+      "blockClass":["SubMenu-Item"]
+    }
+  }
+}

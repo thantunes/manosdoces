@@ -1,0 +1,11 @@
+.openIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.childrenContainer--Header-Mobile{
+    flex-direction: column;
+    align-items: flex-start;
+}

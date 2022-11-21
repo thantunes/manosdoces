@@ -1,0 +1,29 @@
+{
+
+    "flex-layout.col#NSContent":{
+        "children":[
+            "rich-text#NsTitle",
+            "newsletter-form"
+        ],
+        "props":{
+            "blockClass":"NsBg"
+        }
+    },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-submit":{
+    "props":{
+        "submitButtonLabel":"Enviar"
+    }
+  },
+  "rich-text#NsTitle":{
+    "props":{
+      "text":"Quer receber as melhores **novidades da Mano's Doces?** Se inscreva em nossa newsletter",
+      "blockClass":["nsText"]
+    }
+  }
+}

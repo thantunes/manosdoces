@@ -1,0 +1,20 @@
+.flexCol--FooterContent{
+    height: 434px;
+}
+.flexRow--imgFooter{
+    width: 220px;
+}
+
+.flexColChild--BottomContainer:last-child{
+    margin-top: auto;
+}
+
+@media (max-width:768px){
+    .flexRowContent--imgFooter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+}

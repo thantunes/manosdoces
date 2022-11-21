@@ -1,0 +1,37 @@
+.filterTitle{
+    color: #ff5100;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.filterTemplateOverflow{
+    max-height: unset !important;
+}
+.searchResultContainer{
+    max-width: unset !important;
+    padding: 0px !important;
+}
+.filterItem :global(.vtex-checkbox__inner-container ){
+    border-radius: 0px 5px 0px 5px;
+}
+.filter__container--priceRange :global(.vtex-slider__base-internal ), .filter__container--priceRange :global(.vtex-slider__selector){
+    background-color: #00c231;
+}
+.filter__container{
+    border: none;
+}
+.filterMessage{
+    display: none;
+}
+
+.filterItem{
+    font-size: 12px;
+    color:#333333;
+}
+.buttonShowMore :global(.vtex-button){
+    background-color: #253273;
+    color: white;
+    border-radius: 10px 0px 10px 0px;
+}
+.buttonShowMore--layout{
+    margin-bottom: 20px;
+}

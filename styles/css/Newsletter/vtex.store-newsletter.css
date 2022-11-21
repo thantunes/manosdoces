@@ -1,0 +1,27 @@
+.emailInputContainer{
+    width: 500px;
+    border: none;
+
+}
+.emailInputContainer :global(.vtex-input-prefix__group){
+    border: none;
+    border-radius: 35px;
+}
+.newsletterForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.formSubmitContainer :global(.vtex-button){
+    border-radius: 35px;
+}
+
+@media (max-width:768px){
+    .newsletterForm{
+        flex-direction: column !important;
+    }
+    .emailInputContainer{
+        width: 100% !important;
+    }
+}

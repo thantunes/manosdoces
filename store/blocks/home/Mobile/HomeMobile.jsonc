@@ -1,0 +1,43 @@
+{
+  "responsive-layout.desktop#Home": {
+    "children": ["flex-layout.row#HomeDesktop"]
+  },
+  "flex-layout.row#HomeDesktop": {
+    "props": {
+      "blockClass": "HomeDeskContainer"
+    },
+    "children": ["flex-layout.col#HomeDesktop"]
+  },
+  "flex-layout.col#HomeDesktop": {
+    "props": {
+      "blockClass": "HomeDeskContent"
+    },
+    "children": [
+      "list-context.image-list#SliderHome",
+      "image#HomeBanner",
+      "rich-text#NossasSeleções",
+      "list-context.product-list#ShelfDefault",
+      "list-context.image-list#Depart",
+      "rich-text#MaisQueridos",
+      "list-context.product-list#ShelfDefault",
+      "flex-layout.row#images",
+      "rich-text#Lançamentos",
+      "list-context.product-list#ShelfDefault",
+      "rich-text#MelhoresMarcas",
+      "list-context.image-list#BrandsSlider",
+      "flex-layout.col#NSContent"
+    ]
+  },
+
+  "flex-layout.row#HomeDepartamentos": {
+    "props": {
+      "blockClass": "Departamentos"
+    },
+    "children": [
+      "image#HomeDepartF",
+      "image#HomeDepartS",
+      "image#HomeDepartT",
+      "image#HomeDepartFour"
+    ]
+  }
+}

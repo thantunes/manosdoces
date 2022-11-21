@@ -1,0 +1,23 @@
+.flexRowContent--buy-button :global(.vtex-button){
+    width: 205px;
+    height: 54px;
+    border-radius: 14px 0px 14px 0px;
+    background-color: #70a83b;
+    border: none;
+}
+.flexRowContent--buy-button{
+    margin-top: 20px;
+}
+.flexRow--description-pdp :global(.vtex-store-components-3-x-container) {
+    margin-left: 20px;
+ }
+@media (max-width:768px){
+    .flexRowContent--buy-button{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .flexRowContent--buy-button :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+        margin-bottom: 0px !important;
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "logo#FavIcon": {
+    "props": {
+      "url": "assets/header/img11.png",
+      "width": "40",
+      "blockClass":"FavIcon"
+    }
+  }
+}

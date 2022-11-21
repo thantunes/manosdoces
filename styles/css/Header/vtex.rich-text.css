@@ -1,0 +1,11 @@
+.container--depart-text{
+    font-size: 15px;
+    margin: 0 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.link--SubMenu-Item{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,19 @@
+.cartIcon {
+    display: none;
+}
+
+.minicartIconContainer::before {
+    content: "";
+    width: 35px;
+    height: 41px;
+    background-image: url("assets/home/Cart.png");
+    background-size: contain;
+    display: block;
+
+}
+.minicartQuantityBadgeDefault{
+    top: -0.2rem;
+    right: -0.4rem;
+    background: #ebdb19;
+    color: black;
+}

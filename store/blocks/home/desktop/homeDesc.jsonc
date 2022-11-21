@@ -1,0 +1,211 @@
+{
+  "responsive-layout.mobile#Home": {
+    "children": ["flex-layout.row#HomeMobile"]
+  },
+  "flex-layout.row#HomeMobile": {
+    "props": {
+      "blockClass": "HomeMobiContainer"
+    },
+    "children": ["flex-layout.col#HomeMobile"]
+  },
+  "flex-layout.col#HomeMobile": {
+    "props": {
+      "blockClass": "HomeDeskContent"
+    },
+    "children": [
+      "list-context.image-list#SliderHome",
+      "image#HomeBanner",
+      "rich-text#NossasSeleções",
+      "list-context.product-list#ShelfDefault",
+      "list-context.image-list#Depart",
+      "rich-text#MaisQueridos",
+      "list-context.product-list#ShelfDefault",
+      "flex-layout.row#images",
+      "rich-text#Lançamentos",
+      "list-context.product-list#ShelfDefault",
+      "rich-text#MelhoresMarcas",
+      "list-context.image-list#BrandsSlider",
+      "flex-layout.col#NSContent"
+    ]
+  },
+
+  "flex-layout.row#HomeDepartamentos": {
+    "props": {
+      "blockClass": "Departamentos"
+    },
+    "children": [
+      "image#HomeDepartF",
+      "image#HomeDepartS",
+      "image#HomeDepartT",
+      "image#HomeDepartFour"
+    ]
+  },
+  "flex-layout.row#images": {
+    "props": {
+      "blockClass": "images"
+    },
+    "children": ["image#HomeF", "image#HomeS"]
+  },
+  "image#HomeBanner": {
+    "props": {
+      "src": "assets/home/SliderHF.png",
+      "blockClass": "DepartImage"
+    }
+  },
+  "image#HomeF": {
+    "props": {
+      "src": "assets/home/mm.png",
+      "blockClass": "DepartImage"
+    }
+  },
+  "image#HomeS": {
+    "props": {
+      "src": "assets/home/snickers.png",
+      "blockClass": "DepartImage"
+    }
+  },
+  "image#HomeDepartF": {
+    "props": {
+      "src": "assets/home/biscoitinhos.png",
+      "blockClass": "DepartImage"
+    }
+  },
+  "image#HomeDepartS": {
+    "props": {
+      "src": "assets/home/chocolate.png",
+      "blockClass": "DepartImage"
+    }
+  },
+  "image#HomeDepartT": {
+    "props": {
+      "src": "assets/home/doces.png",
+      "blockClass": "DepartImage"
+    }
+  },
+  "image#HomeDepartFour": {
+    "props": {
+      "src": "assets/home/snacks.png",
+      "blockClass": "DepartImage"
+    }
+  },
+  "rich-text#HomeTitle": {
+    "props": {
+      "blockClass": "HomeTitle",
+      "text": "PlaceHolder"
+    }
+  },
+  "rich-text#NossasSeleções": {
+    "props": {
+      "blockClass": "HomeTitle",
+      "text": "Nossas Seleções"
+    }
+  },
+  "rich-text#MaisQueridos": {
+    "props": {
+      "blockClass": "HomeTitle",
+      "text": "Mais Queridos"
+    }
+  },
+  "rich-text#Lançamentos": {
+    "props": {
+      "blockClass": "HomeTitle",
+      "text": "Lançamentos"
+    }
+  },
+  "rich-text#MelhoresMarcas": {
+    "props": {
+      "blockClass": ["HomeTitle", "HomeTitle-blue"],
+      "text": "Melhores Marcas"
+    }
+  },
+  "rich-text#HomeTitle-blue": {
+    "props": {
+      "blockClass": ["HomeTitle", "HomeTitle-blue"],
+      "text": "PlaceHolder"
+    }
+  },
+  "list-context.image-list#Depart": {
+    "children": ["slider-layout#Departamentos"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/home/biscoitinhos.png"
+        },
+        {
+          "image": "assets/home/chocolate.png"
+        },
+        {
+          "image": "assets/home/doces.png"
+        },
+        {
+          "image": "assets/home/snacks.png"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#BrandsSlider": {
+    "children": ["slider-layout#HomeBrandSlider"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/home/elma.png"
+        },
+        {
+          "image": "assets/home/m&m.png"
+        },
+        {
+          "image": "assets/home/Garoto.png"
+        },
+        {
+          "image": "assets/home/snickerLogo.png"
+        },
+        {
+          "image": "assets/home/nestle.png"
+        },
+        {
+          "image": "assets/home/elma.png"
+        },
+        {
+          "image": "assets/home/m&m.png"
+        },
+        {
+          "image": "assets/home/Garoto.png"
+        },
+        {
+          "image": "assets/home/snickerLogo.png"
+        },
+        {
+          "image": "assets/home/nestle.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#HomeBrandSlider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": true,
+      "blockClass": "Slider-home"
+    },
+    "children": []
+  },
+  "slider-layout#Departamentos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": false,
+      "blockClass": "Slider-home"
+    },
+    "children": []
+  }
+}

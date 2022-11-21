@@ -1,0 +1,12 @@
+.flexCol--NsBg {
+    padding: 25px 60px;
+    background-image: url(assets/Footer/NsBG.png);
+    height: 207px;
+}
+
+@media (max-width:768px) {
+    .flexCol--NsBg {
+        height: 250px !important;
+        background-size: cover !important;
+    }
+}

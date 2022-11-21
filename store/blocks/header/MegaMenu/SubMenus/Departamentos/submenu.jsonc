@@ -1,0 +1,51 @@
+{
+  "vtex.menu@2.x:submenu#Departamentos": {
+    "children": ["vtex.menu@2.x:menu#submenuDepartamentos"]
+  },
+  "vtex.menu@2.x:menu#submenuDepartamentos": {
+    "children": [
+      "rich-text#Doces",
+      "rich-text#Chocolates",
+      "rich-text#Bebidas",
+      "rich-text#Salgadinhos",
+      "rich-text#Saudaveis",
+      "rich-text#Importados"
+    ]
+  },
+  "rich-text#Doces": {
+    "props": {
+      "text": "[Doces](/doces)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Chocolates": {
+    "props": {
+      "text": "[Chocolates](/chocolates)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Bebidas": {
+    "props": {
+      "text": "[Bebidas](/bebidas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Salgadinhos": {
+    "props": {
+      "text": "[Salgadinhos](/salgadinhos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Saudaveis": {
+    "props": {
+      "text": "[Saudaveis](/saudaveis)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Importados": {
+    "props": {
+      "text": "[Importados](/importados)",
+      "blockClass":["SubMenu-Item"]
+    }
+  }
+}

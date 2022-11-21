@@ -1,0 +1,14 @@
+.homeIcon{
+    display: none;
+}
+.homeLink::after{
+    content: "Home";
+    font-size: 17.29px;
+    display: block;
+}
+.term{
+    display: none;
+}
+.termArrow{
+    display: none;
+}

@@ -1,0 +1,167 @@
+{
+  "disclosure-layout#Departamentos-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": [
+      "disclosure-trigger#Departamentos-header",
+      "disclosure-content#Departamentos-header"
+    ]
+  },
+  "disclosure-trigger#Departamentos-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": ["rich-text#Departamentos-Header-Mobile"]
+  },
+  "disclosure-content#Departamentos-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": ["flex-layout.col#Departamentos-header"]
+  },
+  "flex-layout.col#Departamentos-header": {
+    "props": {
+      "blockClass": ["disclosure-content"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#Doces",
+      "rich-text#Chocolates",
+      "rich-text#Bebidas",
+      "rich-text#Salgadinhos",
+      "rich-text#Saudaveis",
+      "rich-text#Importados"
+    ]
+  },
+  "disclosure-layout#Doces-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": [
+      "disclosure-trigger#Doces-header",
+      "disclosure-content#Doces-header"
+    ]
+  },
+  "disclosure-trigger#Doces-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": ["rich-text#Doces-Header-Mobile"]
+  },
+  "disclosure-content#Doces-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": ["flex-layout.col#Doces-header"]
+  },
+  "flex-layout.col#Doces-header": {
+    "props": {
+      "blockClass": ["disclosure-content"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#Balas",
+      "rich-text#BalasDeGelatina",
+      "rich-text#BolachaseBiscoitos",
+      "rich-text#Chicletes",
+      "rich-text#DocesTradicionais",
+      "rich-text#Pirulitos"
+    ]
+  },
+  "disclosure-layout#Chocolates-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": [
+      "disclosure-trigger#Chocolates-header",
+      "disclosure-content#Chocolates-header"
+    ]
+  },
+  "disclosure-trigger#Chocolates-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": ["rich-text#Chocolates-Header-Mobile"]
+  },
+  "disclosure-content#Chocolates-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": ["flex-layout.col#Chocolates-header"]
+  },
+  "flex-layout.col#Chocolates-header": {
+    "props": {
+      "blockClass": ["disclosure-content"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+        "rich-text#Barras",
+        "rich-text#Bombons",
+        "rich-text#CaixasePresentes",
+        "rich-text#Confeitos",
+        "rich-text#Cremosos",
+        "rich-text#Semlactosediet",
+        "rich-text#Tabletes"
+    ]
+  },
+  "disclosure-layout#Bebidas-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": [
+      "disclosure-trigger#Bebidas-header",
+      "disclosure-content#Bebidas-header"
+    ]
+  },
+  "disclosure-trigger#Bebidas-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": ["rich-text#Bebidas-Header-Mobile"]
+  },
+  "disclosure-content#Bebidas-header": {
+    "props":{
+        "blockClass":"Header-Mobile"
+    },
+    "children": ["flex-layout.col#Bebidas-header"]
+  },
+  "flex-layout.col#Bebidas-header": {
+    "props": {
+      "blockClass": ["disclosure-content"],
+      "preventVerticalStretch": true
+    },
+    "children": [
+        "rich-text#Achocolatados",
+        "rich-text#Aguas",
+        "rich-text#Destilados",
+        "rich-text#SucosEchas",
+        "rich-text#VinhosEespumantes"
+    ]
+  },
+
+  "rich-text#Departamentos-Header-Mobile": {
+    "props": {
+      "text": "Departamentos",
+      "blockClass":["MenuTitle-Mobile"]
+    }
+  },
+  "rich-text#Doces-Header-Mobile": {
+    "props": {
+      "text": "Doces",
+      "blockClass":["MenuTitle-Mobile"]
+    }
+  },
+  "rich-text#Chocolates-Header-Mobile": {
+    "props": {
+      "text": "Chocolates",
+      "blockClass":["MenuTitle-Mobile"]
+    }
+  },
+  "rich-text#Bebidas-Header-Mobile": {
+    "props": {
+      "text": "Bebidas",
+      "blockClass":["MenuTitle-Mobile"]
+    }
+  }
+}

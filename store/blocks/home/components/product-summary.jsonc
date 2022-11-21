@@ -1,0 +1,18 @@
+{
+  "product-summary.shelf#default": {
+    "props":{
+      "blockClass":"ShelfDefault"
+    },
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-buy-button":{
+    "props":{
+      "buyButtonText":"Adicionar"
+    }
+  }
+}

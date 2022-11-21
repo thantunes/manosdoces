@@ -1,0 +1,318 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "flex-layout.col#footer-Desk"
+    ],
+    "props":{
+      "blockClas":"FooterContainer"
+    }
+  },
+  "flex-layout.col#footer-Desk": {
+    "children": [
+      "flex-layout.row#footerContent"
+    ]
+  },
+  "flex-layout.col#footer-Mobile": {
+    "children": [
+      "disclosure-layout#ManosDoces",
+      "disclosure-layout#Explorealoja",
+      "disclosure-layout#Suporte",
+      "flex-layout.col#FormasDePagamento",
+      "flex-layout.col#Seguranca",
+      "flex-layout.col#Implant"
+    ]
+  },
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-Mobile"
+    ]
+  },
+  "flex-layout.row#footerContent":{
+    "props":{
+      "blockClass":["FooterContent"]
+    },
+    "children":[
+      "flex-layout.col#footerContentF",
+      "flex-layout.col#footerContentS",
+      "flex-layout.col#footerContentT",
+      "flex-layout.col#footerContentFour"
+    ]
+  },
+  "flex-layout.col#footerContentF":{
+    "props":{
+      "blockClass":["FooterContent"],
+      "preventVerticalStretch":true	
+    },
+    "children":[
+      "image#logoFooter",
+      "rich-text#Tel",
+      "rich-text#Sac",
+      "social-networks"
+    ]
+  },
+
+  "social-networks": {
+    "props": {
+      "showInColor":true,
+      "socialNetworks": [
+        { "url": "https://www.facebook.com/ManosDoces/", "name": "Facebook" },
+        { "url": "https://www.instagram.com/manosdoces/", "name": "Instagram" }
+      ]
+    }
+  },
+  "image#face": {
+    "props": {
+      "src": "assets/Footer/img18.png",
+      "link":"link#Face",
+      "newTab":true
+    }
+  },
+  "link#Face": {
+    "props": {
+      "href": "https://www.facebook.com/ManosDoces/"
+    }
+  },
+  "link#insta": {
+    "props": {
+      "href": "https://www.instagram.com/manosdoces/"
+    }
+  },
+  "image#insta": {
+    "props": {
+      "src": "assets/Footer/img20.png",
+      "link":"link#insta"
+    }
+  },
+  "flex-layout.row#Social-midia":{
+    "props":{
+      "preventHorizontalStretch":true
+    },
+    "children":[
+      "image#face",
+      "image#insta"
+    ]
+      
+  },
+  "rich-text#Tel":{
+    "props":{
+      "text":"[0800 52 00 011](#)",
+      "blockClass":"FooterText"
+    }
+  },
+  "rich-text#Sac":{
+    "props":{
+      "text":"[sac@manosdoces.com.br](#)",
+      "blockClass":"FooterText"
+    }
+  },
+  "image#logoFooter":{
+    "props":{
+     "src":"assets/header/img6.png",
+     "blockClass":"LogoFooterDesk"
+    }
+  },
+  "flex-layout.col#footerContentS":{
+    "props":{
+      "blockClass":["FooterContent", "BottomContainer"],
+      "preventVerticalStretch":true	
+    },
+    "children":[
+      "rich-text#ManoDoces",
+      "rich-text#QuemSomos",
+      "rich-text#NossasLojas",
+      "rich-text#TermoseCondições",
+      "rich-text#PolíticasdeTrocaseDevoluções",
+      "rich-text#PedidoPessoaJurídica",
+      "rich-text#ProgramaFidelidade",
+      "rich-text#TrabalheConosco",
+      "flex-layout.col#FormasDePagamento"
+    ]
+  },
+  "flex-layout.col#FormasDePagamento":{
+    "children":[
+      "rich-text#FormasDePagamento",
+      "flex-layout.row#FormasDePagamento"
+    ],
+    "props":{
+      "blockClass":"BottomContainer"
+    }
+  },
+  "flex-layout.col#Seguranca":{
+    "children":[
+      "rich-text#Seguranca",
+      "flex-layout.row#Seguranca"
+    ],
+    "props":{
+      "blockClass":"BottomContainer"
+    }
+  },
+  "rich-text#Seguranca":{
+    "props":{
+      "text":"[Segurança](#)",
+      "blockClass":["FooterText", "FooterTitle"]
+    }
+  },
+  "flex-layout.row#Seguranca":{
+    "children":[
+      "image#let",
+      "image#ebit",
+      "image#pci"
+    ],
+    "props":{
+      "blockClass":"imgFooter"
+    }
+  },
+  "image#let": {
+    "props": {
+      "src": "assets/Footer/let.png"
+    }
+  },
+  "image#ebit": {
+    "props": {
+      "src": "assets/Footer/ebit.png"
+    }
+  },
+  "image#pci": {
+    "props": {
+      "src": "assets/Footer/pci.png"
+    }
+  },
+  "rich-text#FormasDePagamento":{
+    "props":{
+      "text":"[Formas de Pagamento](#)",
+      "blockClass":["FooterText", "FooterTitle"]
+    }
+  },
+  "flex-layout.row#FormasDePagamento":{
+    "children":[
+      "image#MasterCard",
+      "image#Visa",
+      "image#Boleto"
+    ],
+    "props":{
+      "blockClass":"imgFooter"
+    }
+  },
+  "image#MasterCard": {
+    "props": {
+      "src": "assets/Footer/Master.png"
+    }
+  },
+  "image#Visa": {
+    "props": {
+      "src": "assets/Footer/visa.png"
+    }
+  },
+  "image#Boleto": {
+    "props": {
+      "src": "assets/Footer/boleto.png"
+    }
+  },
+  "flex-layout.col#Implant":{
+    "children":[
+      "rich-text#Implant",
+      "flex-layout.row#Implant"
+    ],
+    "props":{
+      "blockClass":"BottomContainer"
+    }
+  },
+  "rich-text#Implant":{
+    "props":{
+      "text":"[Implantação](#)",
+      "blockClass":["FooterText", "FooterTitle"]
+    }
+  },
+  "flex-layout.row#Implant":{
+    "children":[
+      "image#evision",
+      "image#vtex"
+    ],
+    "props":{
+      "blockClass":"imgFooter"
+    }
+  },
+  "image#evision": {
+    "props": {
+      "src": "assets/Footer/evi.png"
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "assets/Footer/vtex.png"
+    }
+  },
+  "flex-layout.col#footerContentT":{
+    "props":{
+      "blockClass":["FooterContent","BottomContainer"],
+      "preventVerticalStretch":true	
+    },
+    "children":[
+      "rich-text#Explorealoja",
+      "rich-text#BiscoitoseSnacks",
+      "rich-text#Chocolates-footer",
+      "rich-text#DoceseSobremesas",
+      "rich-text#Especial",
+      "rich-text#FestaeProdução",
+      "rich-text#Bebidas-footer",
+      "flex-layout.col#Seguranca"
+    ]
+  },
+  "flex-layout.col#footerContentFour":{
+    "props":{
+      "blockClass":["FooterContent","BottomContainer"],
+      "preventVerticalStretch":true	
+    },
+    "children":[
+      "rich-text#Suporte",
+      "rich-text#Pagamentos",
+      "rich-text#DúvidasFrequentes",
+      "rich-text#FaleConosco",
+      "rich-text#SAC",
+      "flex-layout.col#Implant"
+    ]
+  },
+  "rich-text#FooterPlaceholder":{
+    "props":{
+      "text":"[FooterPlaceholder...](#)",
+      "blockClass":"FooterText"
+    }
+  },
+  "rich-text#ManoDoces":{
+    "props":{
+      "text":"Manos Doces",
+      "blockClass":["FooterText", "FooterTitle"]
+    }
+  },
+  "rich-text#FooterPlaceholder-Title":{
+    "props":{
+      "text":"[FooterPlaceholder... Title](#)",
+      "blockClass":["FooterText", "FooterTitle"]
+    }
+  },
+  "rich-text#Explorealoja":{
+    "props":{
+      "text":"Explore a loja",
+      "blockClass":["FooterText", "FooterTitle"]
+    }
+  },
+  "rich-text#Suporte":{
+    "props":{
+      "text":"Suporte",
+      "blockClass":["FooterText", "FooterTitle"]
+    }
+  }
+}

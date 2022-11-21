@@ -1,0 +1,130 @@
+{
+  "vtex.menu@2.x:menu#Header": {
+    "children": [
+      "menu-item#Departamentos",
+      "menu-item#Doces",
+      "menu-item#Chocolates",
+      "menu-item#Bebidas",
+      "menu-item#Salgadinhos",
+      "menu-item#Saudaveis",
+      "menu-item#Importados"
+    ]
+  },
+  "vtex.menu@2.x:menu#Header-mobile-accordion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["category-menu-mobile"]
+    },
+    "children": [
+      "menu-item#Departamentos",
+      "menu-item#Doces",
+      "menu-item#Chocolates",
+      "menu-item#Bebidas",
+      "menu-item#Salgadinhos",
+      "menu-item#Saudaveis",
+      "menu-item#Importados"
+    ]
+  },
+  "menu-item#Departamentos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Departamentos",
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Departamentos"] // Defining a submenu
+  },
+  "menu-item#Doces": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Doces",
+        "noFollow": false,
+        "tagTitle": "Doces",
+        "text": "Doces"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Doces"] // Defining a submenu
+  },
+  "menu-item#Chocolates": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Chocolates",
+        "noFollow": false,
+        "tagTitle": "Chocolates",
+        "text": "Chocolates"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Chocolates"] // Defining a submenu
+  },
+  "menu-item#Bebidas": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Bebidas",
+        "noFollow": false,
+        "tagTitle": "Bebidas",
+        "text": "Bebidas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Bebidas"] // Defining a submenu
+  },
+  "menu-item#Salgadinhos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/salgadinhos",
+        "noFollow": false,
+        "tagTitle": "Salgadinhos",
+        "text": "Salgadinhos"
+      }
+    }
+  },
+  "menu-item#Saudaveis": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/saudaveis",
+        "noFollow": false,
+        "tagTitle": "Saudaveis",
+        "text": "Saudáveis"
+      }
+    }
+  },
+  "menu-item#Importados": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/Importados",
+        "noFollow": false,
+        "tagTitle": "Importados",
+        "text": "Importados"
+      }
+    }
+  }
+}

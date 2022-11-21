@@ -1,0 +1,26 @@
+.footerLayout{
+    background-image: url(assets/header/img42.png);
+    padding: 40px 0px;
+    background-size: cover;
+}
+.socialNetworkImage{
+    display: none;
+}
+
+.socialNetworkLink--instagram::after{
+    content: '';
+    width: 56px;
+    height: 46px;
+    background-image: url(assets/Footer/img20.png);
+    background-size: contain;
+    display: block;
+}
+
+.socialNetworkLink--facebook::after{
+    content: '';
+    width: 56px;
+    height: 46px;
+    background-image: url(assets/Footer/img18.png);
+    background-size: cover;
+    display: block;
+}

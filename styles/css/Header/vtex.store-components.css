@@ -1,0 +1,34 @@
+.logoContainer--FavIcon {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    min-width: unset;
+    margin-left: 10px;
+}
+
+.searchBarContainer {
+    width: 80vw;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    border-radius: 0px 17px 0px 17px;
+}
+
+.resultsList {
+    position: unset !important;
+}
+
+@media (max-width:768px) {
+
+    .logoContainer,
+    .logoLink {
+        display: flex;
+        align-items: center;
+    }
+
+    .logoImage {
+        width: 130px;
+        height: auto;
+    }
+}

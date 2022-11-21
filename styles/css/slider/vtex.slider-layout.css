@@ -1,0 +1,48 @@
+.paginationDotsContainer--Slider-home{
+    bottom: 20px;
+}
+
+.paginationDot--Slider-home{
+    height: 0.925rem !important;
+    width: 0.925rem !important;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.paginationDot--isActive{
+    background-color: white;
+    opacity: 1;
+}
+.sliderLayoutContainer--shelf-default{
+    max-width: 1440px;
+    width: 90%;
+    margin: 20px auto;
+}
+.paginationDotsContainer--shelf-default{
+    bottom:0px;
+}
+.paginationDotsContainer--shelf-default{
+    display: none;
+}
+.sliderArrows--shelf-default{
+    color: #ff5100;
+    width: 46px;
+    height: 46px;
+    background: #00000029 !important;
+    border-radius: 50%;
+}
+.sliderRightArrow--shelf-default{
+    right: -50px;
+}
+.sliderLeftArrow--shelf-default{
+    left: -50px;
+}
+
+@media (max-width:768px) {
+    .sliderRightArrow--shelf-default {
+        right: 0 !important;
+    }
+    .sliderLeftArrow--shelf-default{
+        left: unset !important;
+    }
+}

@@ -1,0 +1,53 @@
+.productNameContainer{
+    max-width: 350px;
+    font-weight: bold;
+    color:  #333333;
+    font-size: 25px;
+}
+.shippingContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 35px;
+}
+.shippingContainer{
+    margin-top: 8px;
+}
+.shippingContainer :global(.vtex-input__label){
+    display: none;
+}
+.shippingContainer :global(.vtex-button){
+    width: 148px;
+    height: 36px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 8px 0px 8px 0px;
+    font-size: 0px;
+}
+.shippingContainer :global(.vtex-button__label){
+    position: relative;
+}
+.shippingContainer :global(.vtex-button__label)::after {
+    position: absolute;
+    content: "CALCULAR";
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
+    color: red !important;
+}
+.shippingContainer :global(.vtex-input-prefix__group){
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+.shippingContainer :global(.vtex-address-form__postalCode){
+    padding-bottom:0px;
+}
+.productDescriptionTitle{
+    display: none;
+}
+.shareSocialButton--pinterest{
+    display: none;
+}

@@ -1,0 +1,18 @@
+{
+  "list-context.product-list#ShelfDefault": {
+    "blocks": ["product-summary.shelf#default"],
+    "children": ["slider-layout#selfDefault"]
+  },
+  "slider-layout#selfDefault": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "shelf-default"
+    }
+  }
+}

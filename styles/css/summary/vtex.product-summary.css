@@ -1,0 +1,89 @@
+.containerNormal--ShelfDefault{
+    width: 303px;
+    transition: all 0.5s;
+    min-height: 504px;
+    border-color: #ebdb19;
+    height: fit-content;
+}
+.productPriceClass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+}
+.price_sellingPriceContainer .currencyContainer{
+    color: #253273;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+.price_sellingPriceLabel{
+    display: none;
+}
+.price_listPriceLabel{
+    display: none;
+}
+.sellingPriceContainer{
+    padding: 0px;
+}
+.element--ShelfDefault{
+    justify-content: space-between;
+}
+.buyButton :global(.vtex-button) {
+    width:113px;
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: #70a83b;
+    border-color: transparent;
+    border-radius: 0px 15px 0px 15px;
+}
+.buyButtonText{
+    font-size: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.buyButtonText::before{
+    content: "Adicionar";
+    font-size: 14px;
+    color:white;
+    text-transform: capitalize;
+}
+.buyButtonText::after{
+    content: "";
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAuCAMAAABteatCAAAAAXNSR0IB2cksfwAAAVNQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Jjv9pgAAAHF0Uk5TAP3/8ZMIGB8m+C67ZAIOHigpJyAVCgOB7tnp8/b39fLs39PP1Nza0MmrSxD++fQB4JGuRnoHNbAFYNGSUPqKFvxAmfutRe1iGr4XzuHn8OgiCQsTFBwrtMqo6+rSBJcbuG6sXQzdPO85UsYh3jPmxBIryRz6AAABhklEQVR4nO2UR1fCQBRGw6eUqCgiYoQkWCiiMdhQFBE1itgLNuwNe/v/KxPlKJmZiAuX3N2buXllZk44rsa/YINBXX1VEWXs1USHU8fFo+FvDTSiyd3c4vJ4WnW8rd42X7tbX3b73YTYAaEzEBSlMqIc6uru6Q1HuqOxvnil2I9fqBQHAIXcVwaNJRXhSjExZJVOwbBJHLGuPGqaZszSE5MmcdxKw4T5fFI8W1QxaRYTU1alHcSRp5mWghh5idOE8vWqMpghxSyVy2AWc6TIRZi1pQQlzkOjNBsWKI9bRM5GihqWKC+/zCy9QomrEDvX1oVQUFVVWZR4SZI3NqNpyttCZls/dn/KILlTyK7sNtvpQThuD9p+goZhHugNyaqpv6CIQ1q1F9UAcFTh5YDjE1bO07NBJe7Ln3+RdV5Ape7vk0sjzc+7vzLCa4Z3A5RyGlzl8BbBYwF3jNIFICrwuC+HDwiUSgD5AzB4BC+jK/XznaChyOrxKQY8v3yHo6/A2ztzmhoUH7UKMw7QoaX/AAAAAElFTkSuQmCC');
+    display: block;
+    width: 18px;
+    height: 22px;
+    background-size: contain;
+}
+.containerNormal--ShelfDefault:hover .buyButton :global(.vtex-button){
+    opacity: 1;
+}
+.containerNormal--ShelfDefault:hover {
+    border: 4px solid #ebdb19;
+    border-radius: 0px 15px 0px 15px;
+    box-shadow: 10px 10px 37px -28px rgba(0,0,0,0.75);
+    z-index: 9999;
+}
+.imageNormal{
+    height: 280px;
+    width: auto;
+}
+.productBrand{
+    font-size: 18px !important;
+    color: #333333;
+    font-weight: 700 !important;
+}
+@media (max-width:768px){
+    .containerNormal--ShelfDefault {
+        border: 4px solid #ebdb19;
+        border-radius: 0px 15px 0px 15px;
+        box-shadow: 10px 10px 37px -28px rgba(0,0,0,0.75);
+        z-index: 9999;
+    }
+    .containerNormal--ShelfDefault .buyButton :global(.vtex-button){
+        opacity: 1;
+    }
+}

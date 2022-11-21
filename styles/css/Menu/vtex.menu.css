@@ -1,0 +1,28 @@
+.styledLinkContent--Depatamento-style{
+    font-size: 18px;
+    margin: 0 25px;
+    color: white;
+    font-weight: bold;
+}
+.submenuWrapper--isOpen{
+    z-index: 3;
+    /* width: 1280px; */
+    position: absolute;
+    transform: -50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 640px !important;
+    box-shadow: 23px 30px 20px -20px rgb(0 0 0 / 57%);
+    background: #f8f8f8;
+    height: 510px;
+    margin-top: 8px;
+}
+.submenu .menuContainer{
+    flex-direction: column;
+}
+
+.submenu{
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 35px;
+}

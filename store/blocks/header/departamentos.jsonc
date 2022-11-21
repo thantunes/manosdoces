@@ -1,0 +1,74 @@
+{
+  "rich-text#departamentos": {
+    "props": {
+      "text": "Departamentos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass":["depart-text"]
+    }
+  },
+  "rich-text#Doces": {
+    "props": {
+      "text": "Doces",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass":["depart-text"]
+    }
+  },
+  "rich-text#chocolates": {
+    "props": {
+      "text": "Chocolates",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass":["depart-text"]
+    }
+  },
+  "rich-text#Bebidas": {
+    "props": {
+      "text": "Bebidas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass":["depart-text"]
+    }
+  },
+  "rich-text#Salagadinhos": {
+    "props": {
+      "text": "Salgadinhos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass":["depart-text"]
+    }
+  },
+  "rich-text#Saudaveis": {
+    "props": {
+      "text": "Saudáveis",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass":["depart-text"]
+    }
+  },
+  "rich-text#Importados": {
+    "props": {
+      "text": "Importados",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-text-1",
+      "blockClass":["depart-text"]
+    }
+  },
+  "rich-text#Atacado": {
+    "props": {
+      "text": "Atacado",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass":["depart-text", "target"]
+    }
+  }
+}

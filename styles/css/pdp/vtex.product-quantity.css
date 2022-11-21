@@ -1,0 +1,23 @@
+:global(.vtex-numeric-stepper__minus-button), :global(.vtex-numeric-stepper__plus-button){
+    height: 45px;
+    width: 45px !important;
+    background-color: #db9600;
+    font-size: 30px !important;
+    color: white !important;
+}
+:global(.vtex-numeric-stepper__minus-button){
+    border-radius: 7px 0px 0px 0px;
+}
+:global(.vtex-numeric-stepper__minus-button__text){
+    font-size:  30px !important;
+}
+:global(.vtex-numeric-stepper__plus-button){
+    border-radius: 0px 0px 7px 7px;
+}
+:global(.vtex-numeric-stepper__input ){
+    height: 45px;
+}
+
+.quantitySelectorTitle{
+    display: none;
+}

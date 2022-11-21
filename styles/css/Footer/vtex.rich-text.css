@@ -1,0 +1,18 @@
+.container--FooterText .paragraph{
+    padding: 0;
+    margin: 0;
+}
+.container--FooterText .link, .container--FooterText{
+    color: white;
+    text-decoration: none;
+}
+.paragraph--FooterTitle, .link--FooterTitle{
+    color:#e7c71c !important;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.wrapper--FooterText{
+    margin-bottom: 14px;
+}
