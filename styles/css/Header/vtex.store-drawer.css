@@ -9,3 +9,13 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
+.childrenContainer--Header-Mobile :global(.vtex-rich-text-0-x-container--SubMenu-Item){
+    border-bottom: 1px solid black;
+    color: #3f3f40;
+    width: 95%;
+    margin: 0 auto;
+}
+.childrenContainer--Header-Mobile :global(.vtex-rich-text-0-x-link--SubMenu-Item){
+    color: #3f3f40;
+}

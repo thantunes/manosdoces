@@ -264,7 +264,7 @@
           "itemsPerRow": 1
         }
       ],
-      "GridSummary": "product-summary.shelf#default"
+      "GridSummary": "product-summary.shelf#default-list"
     }
   },
   "gallery-layout-switcher": {
@@ -337,7 +337,7 @@
       "height": 650,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+          "image": "assets/Search/img3.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
           "description": "something something"
         }

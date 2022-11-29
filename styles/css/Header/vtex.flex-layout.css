@@ -20,4 +20,8 @@
     .flexRowContent--main-header-mobile{
         background: #061066;
     }
+    .flexCol--disclosure-content :global(.vtex-rich-text-0-x-container--SubMenu-Item){
+        border-color: lightgray !important;
+        font-weight: 400 !important;
+    }
 }

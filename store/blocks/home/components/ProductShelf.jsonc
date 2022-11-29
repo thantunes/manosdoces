@@ -12,7 +12,11 @@
       },
       "infinite": true,
       "showNavigationArrows": "always",
-      "blockClass": "shelf-default"
+      "blockClass": "shelf-default",
+      "autoplay":{
+        "timeout":5000,
+        "stopOnHover":false
+      }
     }
   }
 }

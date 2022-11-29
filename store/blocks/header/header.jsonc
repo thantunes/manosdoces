@@ -41,8 +41,16 @@
       "flex-layout.col#logo-desktop",
       "search-bar",
       "login",
+      "image#Fav-icon",
       "minicart.v2"
     ]
+  },
+  "image#Fav-icon": {
+    "props": {
+      "src": "assets/header/img11.png",
+      "maxHeight": 44,
+      "blockClass":"Fav-icon"
+    }
   },
   "flex-layout.row#Departdesktop": {
     "props": {
@@ -97,6 +105,7 @@
       "logo",
       "flex-layout.col#spacer",
       "login",
+      "image#Fav-icon",
       "minicart.v2"
     ],
     "props": {
@@ -114,7 +123,11 @@
       "disclosure-layout#Departamentos-header",
       "disclosure-layout#Doces-header",
       "disclosure-layout#Chocolates-header",
-      "disclosure-layout#Bebidas-header"
+      "disclosure-layout#Bebidas-header",
+      "rich-text#Salgadinhos",
+      "rich-text#Saudaveis",
+      "rich-text#Importados",
+      "rich-text#Atacado"
     ]
   }
 }

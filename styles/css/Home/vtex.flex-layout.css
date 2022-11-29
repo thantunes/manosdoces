@@ -22,4 +22,23 @@
     .flexRow--HomeMobiContainer :global(.vtex-store-components-3-x-container){
         padding: 0px;
     }
+    .flexRowContent--DepartImageMobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .flexRowContent--DepartImageMobile :global(.vtex-rich-text-0-x-container--PromoImage){
+        position: absolute;
+    }
+    .flexRow--PromoImage{
+        width: fit-content !important;
+    }
+    .flexRowContent--PromoImage{
+        width: fit-content !important;
+    }
+    .flexRow--DepartImageMobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: fit-content !important;
+        position: relative;
+    }
 }

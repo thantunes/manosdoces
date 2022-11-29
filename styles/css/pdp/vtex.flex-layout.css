@@ -5,6 +5,27 @@
     background-color: #70a83b;
     border: none;
 }
+.flexRowContent--buy-button :global(.vtex-button__label ){
+    font-size: 0px;
+}
+.flexRowContent--buy-button :global(.vtex-button__label )::before{
+    content: 'ADICIONAR';
+    font-size: 14px;
+    display: block;
+    color: white;
+    font-weight: 700;
+
+}
+.flexRowContent--buy-button :global(.vtex-button__label )::after{
+    content: '';
+    display: block;
+    width: 26px;
+    margin-left: 10px;
+    height: 26px;
+    background-size: cover;
+    background-image: url(assets/home/Cart.png);
+    
+}
 .flexRowContent--buy-button{
     margin-top: 20px;
 }
@@ -16,6 +37,10 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        
+    }
+    .flexRowContent--buy-button :global(.vtex-button){
+        width: 165px;
     }
     .flexRowContent--buy-button :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
         margin-bottom: 0px !important;

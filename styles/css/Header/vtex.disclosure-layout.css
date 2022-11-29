@@ -31,3 +31,7 @@
 .content--Header-Mobile--visible :global(.vtex-rich-text-0-x-container--SubMenu-Item ){
     border-bottom: 1px solid rgba(0, 0, 0, 0.315);
 }
+
+.trigger--Header-Mobile:first-child :global(.vtex-rich-text-0-x-container--MenuTitle-Mobile){
+    color: #07147d;
+}

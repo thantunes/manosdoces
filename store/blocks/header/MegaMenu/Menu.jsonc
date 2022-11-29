@@ -7,7 +7,8 @@
       "menu-item#Bebidas",
       "menu-item#Salgadinhos",
       "menu-item#Saudaveis",
-      "menu-item#Importados"
+      "menu-item#Importados",
+      "menu-item#Atacado"
     ]
   },
   "vtex.menu@2.x:menu#Header-mobile-accordion": {
@@ -29,7 +30,7 @@
     "props": {
       "type": "custom",
       "highlight": false,
-      "blockClass": "Depatamento-style",
+      "blockClass": ["Depatamento-style", "Departamento-Icon"],
       "itemProps": {
         "type": "internal",
         "href": "/Departamentos",
@@ -39,6 +40,21 @@
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#Departamentos"] // Defining a submenu
+  },
+  "menu-item#Atacado": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": ["Depatamento-style", "Target-Departamento"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/atacado",
+        "noFollow": false,
+        "tagTitle": "Atacado",
+        "text": "Atacado"
+      }
+    },
+    "blocks": [] // Defining a submenu
   },
   "menu-item#Doces": {
     "props": {

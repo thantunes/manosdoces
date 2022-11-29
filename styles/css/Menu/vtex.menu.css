@@ -1,28 +1,64 @@
-.styledLinkContent--Depatamento-style{
+.styledLinkContent--Depatamento-style {
     font-size: 18px;
     margin: 0 25px;
     color: white;
     font-weight: bold;
 }
-.submenuWrapper--isOpen{
+
+.submenuWrapper--isOpen {
     z-index: 3;
-    /* width: 1280px; */
     position: absolute;
     transform: -50%;
     left: 50%;
-    transform: translate(-50%);
-    width: 640px !important;
+    transform: translate(-14%);
+    width: 640px!important;
     box-shadow: 23px 30px 20px -20px rgb(0 0 0 / 57%);
     background: #f8f8f8;
     height: 510px;
-    margin-top: 8px;
+    margin-top: 2px;
 }
-.submenu .menuContainer{
+
+.submenu .menuContainer {
     flex-direction: column;
 }
 
-.submenu{
+.submenu {
     align-items: flex-start;
     justify-content: flex-start;
     padding-left: 35px;
+}
+
+.styledLinkContent--Departamento-Icon {
+    position: relative;
+}
+
+.styledLinkContent--Departamento-Icon::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-image: url(assets/header/menu.svg);
+    position: absolute;
+    display: block;
+    left: -22px;
+    top: 2px;
+}
+
+.styledLinkContainer--Target-Departamento{
+    padding: 9px 4px;
+    background: #e8cd13;
+    border-radius: 14px 0px;
+    color: #07147d;
+}
+.styledLinkContent--Target-Departamento{
+    color: #07147d;
+}
+
+.styledLinkContainer--Depatamento-style{
+    margin: 0 5px;
+}
+@media (max-width:1400px) {
+    .submenuWrapper--isOpen {
+        transform: translate(0%);
+    }
 }

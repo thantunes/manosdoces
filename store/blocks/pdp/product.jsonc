@@ -162,7 +162,11 @@
     },
     "children": ["product-quantity", "add-to-cart-button"]
   },
-
+  "product-quantity":{
+    "props":{
+      "showUnit":false
+    }
+  },
   "flex-layout.row#product-availability": {
     "props": {
       "colGap": 7,

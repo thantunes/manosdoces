@@ -16,3 +16,8 @@
 .wrapper--FooterText{
     margin-bottom: 14px;
 }
+@media (max-width:768px) {
+    .container--FooterText{
+        padding: 0px 6px;
+    }
+}

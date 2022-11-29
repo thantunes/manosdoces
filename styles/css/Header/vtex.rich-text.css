@@ -9,3 +9,11 @@
     text-decoration: none;
     color: black;
 }
+.container--MenuTitle-Mobile{
+    font-weight: 700;
+    font-size: 15px;
+}
+.container--SubMenu-Item{
+    font-weight: 700;
+    font-size: 13px;
+}

@@ -1,7 +1,7 @@
 .footerLayout{
-    background-image: url(assets/header/img42.png);
+    background-image: url(assets/Footer/img42.jpeg);
     padding: 40px 0px;
-    background-size: cover;
+    background-size: contain;
 }
 .socialNetworkImage{
     display: none;
@@ -9,7 +9,7 @@
 
 .socialNetworkLink--instagram::after{
     content: '';
-    width: 56px;
+    width: 44px;
     height: 46px;
     background-image: url(assets/Footer/img20.png);
     background-size: contain;
@@ -18,9 +18,22 @@
 
 .socialNetworkLink--facebook::after{
     content: '';
-    width: 56px;
+    width: 26px;
     height: 46px;
     background-image: url(assets/Footer/img18.png);
     background-size: cover;
     display: block;
+}
+
+.socialNetworkLink{
+    width: fit-content;
+}
+
+@media (max-width:768px){
+    .footerLayout :global(.vtex-disclosure-layout-1-x-trigger){
+        padding-left: 0px;
+    }
+    .footerLayout{
+        background-size: cover;
+    }
 }

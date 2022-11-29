@@ -14,5 +14,25 @@
     "props":{
       "buyButtonText":"Adicionar"
     }
+  },
+  "product-summary.shelf#default-list": {
+    "props":{
+      "blockClass":["ShelfDefault", "shelfList"]
+    },
+    "children": [
+      "product-summary-image",
+      "flex-layout.col#ListSummary"
+    ]
+  },
+  "flex-layout.col#ListSummary":{
+    "props":{
+      "preventVerticalStretch":true,
+      "blockClass":"ListSummary"
+    },
+    "children":[
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
   }
 }

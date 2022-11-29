@@ -1,48 +1,66 @@
-.paginationDotsContainer--Slider-home{
+.paginationDotsContainer--Slider-home {
     bottom: 20px;
 }
 
-.paginationDot--Slider-home{
+.paginationDot--Slider-home {
     height: 0.925rem !important;
     width: 0.925rem !important;
     background-color: black;
     opacity: 0.5;
 }
 
-.paginationDot--isActive{
+.paginationDot--isActive {
     background-color: white;
     opacity: 1;
 }
-.sliderLayoutContainer--shelf-default{
+
+.sliderLayoutContainer--shelf-default {
     max-width: 1440px;
     width: 90%;
     margin: 20px auto;
 }
-.paginationDotsContainer--shelf-default{
-    bottom:0px;
+
+.paginationDotsContainer--shelf-default {
+    bottom: 0px;
 }
-.paginationDotsContainer--shelf-default{
+
+.paginationDotsContainer--shelf-default {
     display: none;
 }
-.sliderArrows--shelf-default{
+
+.sliderArrows--shelf-default {
     color: #ff5100;
     width: 46px;
     height: 46px;
     background: #00000029 !important;
     border-radius: 50%;
 }
-.sliderRightArrow--shelf-default{
+
+.sliderRightArrow--shelf-default {
     right: -50px;
 }
-.sliderLeftArrow--shelf-default{
+
+.sliderLeftArrow--shelf-default {
     left: -50px;
+}
+
+.sliderTrackContainer--Slider-Depart {
+
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+.imageElement{
+    max-height: unset !important;
 }
 
 @media (max-width:768px) {
     .sliderRightArrow--shelf-default {
         right: 0 !important;
     }
-    .sliderLeftArrow--shelf-default{
+
+    .sliderLeftArrow--shelf-default {
         left: unset !important;
     }
 }

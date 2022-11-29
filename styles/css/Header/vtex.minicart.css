@@ -17,3 +17,9 @@
     background: #ebdb19;
     color: black;
 }
+.openIconContainer{
+    padding: 0px !important;
+}
+.openIconContainer :global(.vtex-button):hover{
+    background-color: transparent;
+}

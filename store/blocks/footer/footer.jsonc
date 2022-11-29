@@ -98,7 +98,8 @@
   },
   "flex-layout.row#Social-midia":{
     "props":{
-      "preventHorizontalStretch":true
+      "preventHorizontalStretch":true,
+      "blockClass":"SocialMidia-Footer"
     },
     "children":[
       "image#face",
@@ -108,7 +109,7 @@
   },
   "rich-text#Tel":{
     "props":{
-      "text":"[0800 52 00 011](#)",
+      "text":"[Telefone: 0800 52 00 011](#)",
       "blockClass":"FooterText"
     }
   },
@@ -177,17 +178,20 @@
   },
   "image#let": {
     "props": {
-      "src": "assets/Footer/let.png"
+      "src": "assets/Footer/let.png",
+      "blockClass":"Footer-image"
     }
   },
   "image#ebit": {
     "props": {
-      "src": "assets/Footer/ebit.png"
+      "src": "assets/Footer/ebit.png",
+      "blockClass":"Footer-image"
     }
   },
   "image#pci": {
     "props": {
-      "src": "assets/Footer/pci.png"
+      "src": "assets/Footer/pci.png",
+      "blockClass":"Footer-image"
     }
   },
   "rich-text#FormasDePagamento":{
@@ -208,17 +212,20 @@
   },
   "image#MasterCard": {
     "props": {
-      "src": "assets/Footer/Master.png"
+      "src": "assets/Footer/Master.png",
+      "blockClass":"Footer-image"
     }
   },
   "image#Visa": {
     "props": {
-      "src": "assets/Footer/visa.png"
+      "src": "assets/Footer/visa.png",
+      "blockClass":"Footer-image"
     }
   },
   "image#Boleto": {
     "props": {
-      "src": "assets/Footer/boleto.png"
+      "src": "assets/Footer/boleto.png",
+      "blockClass":"Footer-image"
     }
   },
   "flex-layout.col#Implant":{
@@ -247,12 +254,14 @@
   },
   "image#evision": {
     "props": {
-      "src": "assets/Footer/evi.png"
+      "src": "assets/Footer/evi.png",
+      "blockClass":"Footer-image"
     }
   },
   "image#vtex": {
     "props": {
-      "src": "assets/Footer/vtex.png"
+      "src": "assets/Footer/vtex.png",
+      "blockClass":"Footer-image"
     }
   },
   "flex-layout.col#footerContentT":{

@@ -14,7 +14,6 @@
     },
     "children": [
       "list-context.image-list#SliderHome",
-      "image#HomeBanner",
       "rich-text#NossasSeleções",
       "list-context.product-list#ShelfDefault",
       "list-context.image-list#Depart",
@@ -50,6 +49,79 @@
     "props": {
       "src": "assets/home/SliderHF.png",
       "blockClass": "DepartImage"
+    }
+  },
+  "flex-layout.row#HomeMobileBanner": {
+    "props": {
+      "blockClass": "DepartImageMobile"
+    },
+    "children":[
+      "flex-layout.row#HomeBannerMobile-1",
+      "flex-layout.row#HomeBannerMobile-2",
+      "flex-layout.row#HomeBannerMobile-3"
+    ]
+  },
+  "image#HomeBannerMobile-1": {
+    "props": {
+      "src": "assets/home/Frete.png",
+      "blockClass": "PromoImage"
+    }
+  },
+  "image#HomeBannerMobile-2": {
+    "props": {
+      "src": "assets/home/cartao.png",
+      "blockClass": "PromoImage"
+    }
+  },
+  "image#HomeBannerMobile-3": {
+    "props": {
+      "src": "assets/home/entrega.png",
+      "blockClass": "PromoImage"
+    }
+  },
+  "flex-layout.row#HomeBannerMobile-1": {
+    "props": {
+      "blockClass": "PromoImage"
+    },
+    "children":[
+      "image#HomeBannerMobile-1",
+      "rich-text#HomeBannerMobile-1"
+    ]
+  },
+  "flex-layout.row#HomeBannerMobile-2": {
+    "props": {
+      "blockClass": "PromoImage"
+    },
+    "children":[
+      "image#HomeBannerMobile-2",
+      "rich-text#HomeBannerMobile-2"
+    ]
+  },
+  "flex-layout.row#HomeBannerMobile-3": {
+    "props": {
+      "blockClass": "PromoImage"
+    },
+    "children":[
+      "image#HomeBannerMobile-3",
+      "rich-text#HomeBannerMobile-3"
+    ]
+  },
+  "rich-text#HomeBannerMobile-1": {
+    "props": {
+      "text":"**FRETE GRATIS** para a Grande SP a partir de *R$ 250*" ,
+      "blockClass": "PromoImage"
+    }
+  },
+  "rich-text#HomeBannerMobile-2": {
+    "props": {
+      "text": "comprem em até **4x sem juros** com **parcelas mínimas de R$ 100,00**",
+      "blockClass": "PromoImage"
+    }
+  },
+  "rich-text#HomeBannerMobile-3": {
+    "props": {
+      "text": "Entregas feitas para **São Paulo, Minas Gerais e Rio de Janeiro**" ,
+      "blockClass": "PromoImage"
     }
   },
   "image#HomeF": {
@@ -163,21 +235,6 @@
         },
         {
           "image": "assets/home/nestle.png"
-        },
-        {
-          "image": "assets/home/elma.png"
-        },
-        {
-          "image": "assets/home/m&m.png"
-        },
-        {
-          "image": "assets/home/Garoto.png"
-        },
-        {
-          "image": "assets/home/snickerLogo.png"
-        },
-        {
-          "image": "assets/home/nestle.png"
         }
       ]
     }
@@ -187,10 +244,16 @@
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 1,
-        "phone": 1
+        "phone": 3
       },
       "infinite": true,
       "showNavigationArrows": true,
+      "showPaginationDot":false,
+      "autoplay":{
+        "timeout":5000,
+        "stopOnHover":false
+      },
+
       "blockClass": "Slider-home"
     },
     "children": []
@@ -204,7 +267,8 @@
       },
       "infinite": true,
       "showNavigationArrows": false,
-      "blockClass": "Slider-home"
+      "showPaginationDots":false,
+      "blockClass": "Slider-Depart"
     },
     "children": []
   }
