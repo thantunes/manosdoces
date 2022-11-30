@@ -2,8 +2,7 @@
     width: 303px;
     transition: all 0.5s;
     border-color: #ebdb19;
-
-    height: 540px;
+    height: 470px;
 }
 
 .productPriceClass {
@@ -15,8 +14,8 @@
 
 .price_sellingPriceContainer .currencyContainer {
     color: #253273;
-    font-size: 20px !important;
-    font-weight: 700 !important;
+    font-size: 23px !important;
+    font-weight: 800 !important;
 }
 
 .price_sellingPriceLabel {
@@ -32,7 +31,7 @@
 }
 
 .element--ShelfDefault {
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .buyButton :global(.vtex-button) {
@@ -81,7 +80,7 @@
 }
 
 .imageNormal {
-    max-height: 140px;
+    max-height: 210px;
     width: auto;
 }
 
@@ -91,9 +90,31 @@
     font-weight: 700 !important;
 }
 
+.nameContainer {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.priceContainer {
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+
+.buyButtonContainer {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.imageStackContainer {
+    height: 230px;
+}
+
 .productNameContainer {
     width: 200px;
-    padding: inherit auto;
+    padding: 0px;
+    height: 90px;
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width:768px) {
@@ -143,10 +164,9 @@
     }
 
     .productBrand {
-        font-size: 12px !important;
+        font-size: 15px !important;
     }
     .brandName{
-        min-height: 72px;
         display: flex;
         flex-direction: column;
         align-items: center;

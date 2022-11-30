@@ -1,0 +1,25 @@
+.container--BlocoRegra-Texto{
+    color:#0a1e6a;
+    font-weight: 600;
+    font-size: 18px;
+    max-width:270px;
+}
+
+.paragraph--BlocoRegra-Texto{
+    margin: 0px;
+}
+.strong--BlocoRegra-Texto{
+    font-size: 20px;
+    font-weight: 800;
+}
+@media (max-width:768px){
+    .container--BlocoRegra-Texto{
+        font-size: 10px;
+        max-width: 100px;
+        height: 70px;
+
+    }
+    .strong--BlocoRegra-Texto{
+        font-size: 12px;
+    }
+}

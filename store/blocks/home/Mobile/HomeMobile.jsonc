@@ -14,7 +14,7 @@
     },
     "children": [
       "list-context.image-list#SliderHome",
-      "image#HomeBanner",
+      "flex-layout.row#BlocoRegra-Container",
       "rich-text#NossasSeleções",
       "list-context.product-list#ShelfDefault",
       "list-context.image-list#Depart",

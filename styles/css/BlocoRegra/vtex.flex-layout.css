@@ -1,0 +1,46 @@
+.flexRowContent--BlocoRegra-Container{
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+
+}
+.flexRow--BlocoRegra-Container{
+    width: fit-content;
+    margin: 20px auto;
+    background-image: url(assets/BarraDeNegocios/bgNegocios.png);
+    background-size: cover;
+    padding: 15px 0px;
+    max-width: 1101px;
+    width: 100%;
+    height: 160px;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0px 30px;
+}
+.flexCol--BlocoRegra-Box{
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width:768px){
+    .flexCol--BlocoRegra-Box{
+        display: flex;
+        flex-direction: column;
+    }
+    .flexRow--BlocoRegra-Container{
+        height: fit-content;
+
+    }
+    .flexRowContent--BlocoRegra-Container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .flexColChild--BlocoRegra-Box :global(.vtex-store-components-3-x-imageElement){
+        width: 60px;
+        height: auto;
+    }
+}
