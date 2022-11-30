@@ -62,7 +62,6 @@
 
   "search-result-layout.desktop": {
     "children": [
-      "list-context.image-list#SearchBanner",
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
