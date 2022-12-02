@@ -53,4 +53,7 @@
         top: 15px;
         position: relative;
     }
+    .searchBarContainer{
+        margin: 0 auto;
+    }
 }

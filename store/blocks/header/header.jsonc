@@ -97,7 +97,7 @@
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
+    "children": ["flex-layout.row#mobile", "search-bar"]
   },
   "flex-layout.row#mobile": {
     "children": [
