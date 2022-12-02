@@ -185,4 +185,10 @@
     .element--shelfList .productPriceClass{
         height: auto;
     }
+    .productNameContainer{
+        height: 70px;
+    }
+    .priceContainer{
+        padding-top: 0px;
+    }
 }
