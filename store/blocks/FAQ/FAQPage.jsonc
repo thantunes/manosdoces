@@ -1,0 +1,32 @@
+{
+    "store.custom#DuvidasFrequentes":{
+       "blocks":[
+        "flex-layout.row#DuvidasFrequentes"
+       ]
+    },
+
+    "rich-text#PageTitle":{
+        "props":{
+            "text":"# Dúvidas Frequentes"
+        }
+    },
+    "rich-text#PageContent":{
+        "props":{
+            "text":"### Título \n conteúdo \n ### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    },
+    "flex-layout.row#DuvidasFrequentes":{
+        "props":{
+
+        },
+        "children":[
+            "flex-layout.col#DuvidasFrequentes"
+        ]
+    },
+    "flex-layout.col#DuvidasFrequentes":{
+       "children":[
+        "rich-text#PageTitle",
+        "rich-text#PageContent"
+       ]
+    }
+}
