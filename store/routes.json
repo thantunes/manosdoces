@@ -1,5 +1,8 @@
 {
     "store.custom#DuvidasFrequentes": {
         "path": "/duvidasfrequentes"
+    },
+    "store.custom#landing": {
+        "path": "/landing"
     }
 }
