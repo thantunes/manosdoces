@@ -1,6 +1,6 @@
 {
     "store.custom#landing": { 
-      "blocks": ["image#landing","image#landingmobile","flex-layout.row#titulocolecaobuscapersonalizada","flex-layout.row#descricaocolecaobuscapersonalizada", "search-result-layout.customQuery"]
+      "blocks": ["image#landing","image#landingmobile","flex-layout.row#titulocolecaobuscapersonalizada","flex-layout.row#descricaocolecaobuscapersonalizada", "search-result-layout.customQuery#mondelez"]
     },
     "image#landing": { 
       "props": { 
@@ -40,17 +40,17 @@
         "blockClass": "descricao-nome-colecao"
       }
     },
-    "search-result-layout.customQuery": {
+    "search-result-layout.customQuery#mondelez": {
       "props": {
         "querySchema": {
-          "queryField": "1264", 
+          "queryField": "193", 
           "mapField": "productClusterIds", 
           "skusFilter": "ALL", 
           "maxItemsPerPage": 12,
           "simulationBehavior": "skip"
         }
       },
-      "blocks": [
+      "blocks": [ 
         "search-result-layout.desktop",
         "search-result-layout.mobile",
         "search-not-found-layout"
@@ -64,11 +64,12 @@
         "search-fetch-previous",
         "flex-layout.row#results",
         "search-fetch-more"
+
       ],
       "props": {
         "pagination": "show-more",
        
-        "preventRouteChange": false,
+        "preventRouteChange": true,
         "defaultGalleryLayout": "grid"
       }
     },
