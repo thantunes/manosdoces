@@ -11,3 +11,27 @@
 
 
 }
+
+
+:global(.vtex-minicart-2-x-drawer.vtex-minicart-2-x-opened){z-index: 999999999;}
+
+:global(.MsoNormal) span {font-size: 14px!important;
+    font-family: Noto Sans!important;
+    font-weight: 400;}
+
+
+    :global(.vtex-flex-layout-0-x-flexRow--description-pdp) 
+    :global(.vtex-store-components-3-x-container) {
+        margin-left: 20px;
+        margin: auto!important;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    :global(.render-route-vtex-store-2-x-store-custom-nossas-lojas)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        max-width: 1190px;
+        margin: auto;
+
+    }
