@@ -27,6 +27,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12,
         "simulationBehavior": "skip"
       }
     }
@@ -37,6 +38,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12,
         "simulationBehavior": "skip"
       }
     }
@@ -47,6 +49,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12,
         "simulationBehavior": "skip"
       }
     }
