@@ -223,6 +223,7 @@
   "list-context.image-list#BrandsSlider": {
     "children": ["slider-layout#HomeBrandSlider"],
     "props": {
+      "blockClass": ["cassousel-de-marcas"],
       "preload": true,
       "images": [
         {
@@ -258,7 +259,7 @@
         "stopOnHover":false
       },
 
-      "blockClass": "Slider-home"
+      "blockClass": "carrousel-de-marcas-home-desk"
     },
     "children": []
   },
