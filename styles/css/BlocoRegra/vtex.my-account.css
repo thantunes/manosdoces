@@ -9,6 +9,13 @@
     :global(.vtex-search-result-3-x-accordionFilter){    z-index: 99999;}
     :global(.vtex-store-footer-2-x-footerLayout) {background-size: auto!important;}
 
+    :global(.render-route-store-product)
+    :global(.vtex-rich-text-0-x-paragraph--HomeTitle){    line-height: 30px;}
+
+    :global(.render-route-store-product)
+    :global(.vtex-rich-text-0-x-container--HomeTitle){    height: auto!important;    padding: 15px;
+        font-size: 24px;}
+
 }
 
 
