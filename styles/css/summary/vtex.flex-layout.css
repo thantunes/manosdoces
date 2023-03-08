@@ -1,15 +1,26 @@
-.flexCol--ListSummary{
+.flexCol--ListSummary {
     justify-content: space-between;
     height: 50%;
     margin-bottom: 40px;
 }
-.flexRowContent--widthLimit{
+
+.flexRowContent--widthLimit {
     width: 96%;
     margin: 0 auto;
 }
 
-@media (max-width:768px){
-    .flexCol--ListSummary{
+.flexRowContent--BuyButton-flex {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .flexRowContent--BuyButton-flex{
+        display: flex;
+        flex-direction: row;
+    }
+    .flexCol--ListSummary {
         justify-content: space-between;
         height: 100%;
         margin-bottom: 40px;

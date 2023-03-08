@@ -28,7 +28,10 @@
 @media (max-width:768px){
     .flexCol--BlocoRegra-Box{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+    }
+    .flexRow--BlocoRegra-Container{
+        width: 80%;
     }
     .flexRow--BlocoRegra-Container{
         height: fit-content;

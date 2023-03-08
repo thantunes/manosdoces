@@ -54,12 +54,17 @@
 .imageElement{
     max-height: unset !important;
 }
-
 @media (max-width:768px) {
+    .imageElementLink--Slider-home{
+        width: 100%;
+        height: auto;
+    }
     .sliderRightArrow--shelf-default {
         right: 0 !important;
     }
-
+    .slideChildrenContainer--RegrasMoBIle{
+        align-items: center;
+    }
     .sliderLeftArrow--shelf-default {
         left: unset !important;
     }

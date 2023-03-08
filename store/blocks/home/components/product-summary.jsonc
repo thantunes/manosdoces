@@ -1,7 +1,7 @@
 {
   "product-summary.shelf#default": {
     "props":{
-      "blockClass":"ShelfDefault"
+      "blockClass":"ShelfDefault-Prime"
     },
     "children": [
       "product-summary-image",
@@ -9,11 +9,6 @@
       "product-summary-price",
       "product-summary-buy-button"
     ]
-  },
-  "product-summary-buy-button":{
-    "props":{
-      "buyButtonText":"Adicionar"
-    }
   },
   "product-summary.shelf#default-list": {
     "props":{
@@ -24,6 +19,12 @@
       "flex-layout.col#ListSummary"
     ]
   },
+  "product-summary-buy-button#DefaultButton":{
+    "props":{
+      "buyButtonText":"Adicionar",
+      "isOneClickBuy":true
+    }
+  },
   "flex-layout.col#ListSummary":{
     "props":{
       "preventVerticalStretch":true,
@@ -31,8 +32,20 @@
     },
     "children":[
       "product-summary-name",
-      "product-summary-price",
-      "product-summary-buy-button"
+      "ProductSummaryPrice",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#BuyButton"
+    ]
+  },
+  "flex-layout.row#BuyButton":{
+    "props":{
+      "preventHorizontalStretch":true,
+      "horizontalAlign":true,
+      "blockClass":"BuyButton-flex"
+    },
+    "children":[
+      "add-to-list-btn",
+      "product-summary-buy-button#DefaultButton"
     ]
   }
 }

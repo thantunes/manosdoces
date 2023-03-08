@@ -49,7 +49,8 @@
     "props": {
       "src": "assets/header/img11.png",
       "maxHeight": 44,
-      "blockClass":"Fav-icon"
+      "blockClass":"Fav-icon",
+      "link":"/wishlist"
     }
   },
   "flex-layout.row#Departdesktop": {

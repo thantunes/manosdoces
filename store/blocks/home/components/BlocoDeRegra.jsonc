@@ -1,71 +1,95 @@
 {
-    "flex-layout.row#BlocoRegra-Container":{
-        "props":{
-            "preventHorizontalStretch":true,
-            "blockClass":"BlocoRegra-Container"
+    "flex-layout.row#BlocoRegra-Container": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "blockClass": "BlocoRegra-Container"
         },
-        "children":[
+        "children": [
+            "slider-layout#RegrasMobile"
+        ]
+    },
+    "slider-layout#RegrasMobile": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots":"never",
+            "blockClass": "RegrasMoBIle"
+        },
+        "children": [
             "flex-layout.col#BlocoRegra-Box-Brasil",
             "flex-layout.col#BlocoRegra-Box-Parcelas",
             "flex-layout.col#BlocoRegra-Box-Frete"
         ]
     },
-    "flex-layout.col#BlocoRegra-Box-Brasil":{
-        "props":{
-            "preventHorizontalStretch":true,
-            "preventVerticalStretch":true,
-            "blockClass":"BlocoRegra-Box"
+    "flex-layout.col#BlocoRegra-Box-Brasil": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "BlocoRegra-Box"
         },
-        "children":["image#BlocoRegra-Imagem-Brasil","rich-text#BlocoRegra-Texto-Brasil"]
+        "children": [
+            "image#BlocoRegra-Imagem-Brasil",
+            "rich-text#BlocoRegra-Texto-Brasil"
+        ]
     },
-    "flex-layout.col#BlocoRegra-Box-Frete":{
-        "props":{
-            "preventHorizontalStretch":true,
-            "preventVerticalStretch":true,
-            "blockClass":"BlocoRegra-Box"
+    "flex-layout.col#BlocoRegra-Box-Frete": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "BlocoRegra-Box"
         },
-        "children":["image#BlocoRegra-Imagem-Frete","rich-text#BlocoRegra-Texto-Frete"]
+        "children": [
+            "image#BlocoRegra-Imagem-Frete",
+            "rich-text#BlocoRegra-Texto-Frete"
+        ]
     },
-    "flex-layout.col#BlocoRegra-Box-Parcelas":{
-        "props":{
-            "preventHorizontalStretch":true,
-            "preventVerticalStretch":true,
-            "blockClass":"BlocoRegra-Box"
+    "flex-layout.col#BlocoRegra-Box-Parcelas": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "BlocoRegra-Box"
         },
-        "children":["image#BlocoRegra-Imagem-Parcelas","rich-text#BlocoRegra-Texto-Parcelas"]
+        "children": [
+            "image#BlocoRegra-Imagem-Parcelas",
+            "rich-text#BlocoRegra-Texto-Parcelas"
+        ]
     },
-    "rich-text#BlocoRegra-Texto-Brasil":{
-        "props":{
-            "text":"**Frete Grátis**\n para a Grande SP\n a partir de **R$ 250**",
-            "blockClass":"BlocoRegra-Texto"
+    "rich-text#BlocoRegra-Texto-Brasil": {
+        "props": {
+            "text": "**Frete Grátis**\n para a Grande SP\n a partir de **R$ 250**",
+            "blockClass": "BlocoRegra-Texto"
         }
     },
-    "rich-text#BlocoRegra-Texto-Frete":{
-        "props":{
-            "text":"Entregas feitas\n para **São Paulo e Rio de Janeiro**",
-            "blockClass":"BlocoRegra-Texto"
+    "rich-text#BlocoRegra-Texto-Frete": {
+        "props": {
+            "text": "Entregas feitas\n para **São Paulo e Rio de Janeiro**",
+            "blockClass": "BlocoRegra-Texto"
         }
     },
-    "rich-text#BlocoRegra-Texto-Parcelas":{
-        "props":{
-            "text":"comprem em até\n **4x sem juros com parcelas mínimas de R$ 100,00**",
-            "blockClass":"BlocoRegra-Texto"
+    "rich-text#BlocoRegra-Texto-Parcelas": {
+        "props": {
+            "text": "comprem em até\n **4x sem juros com parcelas mínimas de R$ 100,00**",
+            "blockClass": "BlocoRegra-Texto"
         }
     },
-
-    "image#BlocoRegra-Imagem-Frete":{
-        "props":{
-            "src":"assets/BarraDeNegocios/iconBrasil.png"
+    "image#BlocoRegra-Imagem-Frete": {
+        "props": {
+            "src": "assets/BarraDeNegocios/iconBrasil.png"
         }
     },
-    "image#BlocoRegra-Imagem-Brasil":{
-        "props":{
-            "src":"assets/BarraDeNegocios/iconFrete.png"
+    "image#BlocoRegra-Imagem-Brasil": {
+        "props": {
+            "src": "assets/BarraDeNegocios/iconFrete.png"
         }
     },
-    "image#BlocoRegra-Imagem-Parcelas":{
-        "props":{
-            "src":"assets/BarraDeNegocios/iconParcelas.png"
+    "image#BlocoRegra-Imagem-Parcelas": {
+        "props": {
+            "src": "assets/BarraDeNegocios/iconParcelas.png"
         }
     }
 }

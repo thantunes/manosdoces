@@ -21,7 +21,12 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-
+  "product-summary-price":{
+    "props":{
+      "showDiscountValue":true,
+      "showInstallments":true
+    }
+  },
   "product-summary.shelf": {
     "children": [
       "product-summary-add-to-list-button",

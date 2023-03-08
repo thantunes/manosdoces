@@ -16,6 +16,15 @@
       "search-not-found-layout"
     ]
   },
+  "image#example": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "flex-layout.row#banner-one": {
+    "children": ["image#example"]
+  },
   "search-result-layout.desktop#Home": {
     "children": [
       "flex-layout.row#searchbread",
@@ -167,7 +176,8 @@
     "props":{
       "initiallyCollapsed":false,
       "truncateFilters":false,
-      "appliedFiltersOverview":true
+      "appliedFiltersOverview":true,
+      "showClearAllFiltersOnDesktop":true
     }
   },
   "flex-layout.col#switcherMobile": {
