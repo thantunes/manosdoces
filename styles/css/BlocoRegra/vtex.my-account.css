@@ -18,6 +18,12 @@
 
 }
 
+:global(.vtex-wish-list-1-x-wishlistIconContainer)
+:global(.vtex-button){    background-color: transparent;    margin-top: 10px;}
+
+:global(.vtex-account__page-body)
+:global(.vtex-product-summary-2-x-element){    padding: 10px;}
+
 
 
 @media (min-width: 861px)
