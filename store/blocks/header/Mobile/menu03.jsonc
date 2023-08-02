@@ -1,0 +1,50 @@
+{
+    // Menu 00
+    "disclosure-layout#menu03-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": [
+        "disclosure-trigger#menu03-header",
+        "disclosure-content#menu03-header"
+      ]
+    },
+    "disclosure-trigger#menu03-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["rich-text#menu03-Header-Mobile"]
+    },
+    "disclosure-content#menu03-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["flex-layout.col#menu03-header"]
+    },
+    "flex-layout.col#menu03-header": {
+      "props": {
+        "blockClass": ["disclosure-content"],
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "rich-text#Amendoins",
+        "rich-text#Batatas",
+        "rich-text#BiscoitoDoce",
+        "rich-text#BiscoitoSalgado",
+        "rich-text#Bolos",
+        "rich-text#FarinhasEFarofas",
+        "rich-text#Geleias",
+        "rich-text#Pipocas02",
+        "rich-text#SalgadinhosESnacks",
+        "rich-text#temperos",
+        "rich-text#torradas"
+      ]
+    },
+    "rich-text#menu03-Header-Mobile": {
+      "props": {
+        "text": "Mercearia",
+        "blockClass":["MenuTitle-Mobile"]
+      }
+    }
+    // Menu 00
+}

@@ -34,6 +34,7 @@
       "rich-text#Importados"
     ]
   },
+
   "disclosure-layout#Doces-header": {
     "props":{
         "blockClass":"Header-Mobile"
@@ -69,6 +70,7 @@
       "rich-text#Pirulitos"
     ]
   },
+  
   "disclosure-layout#Chocolates-header": {
     "props":{
         "blockClass":"Header-Mobile"
@@ -105,6 +107,7 @@
         "rich-text#Tabletes"
     ]
   },
+
   "disclosure-layout#Bebidas-header": {
     "props":{
         "blockClass":"Header-Mobile"
@@ -164,4 +167,5 @@
       "blockClass":["MenuTitle-Mobile"]
     }
   }
+  
 }

@@ -1,0 +1,79 @@
+{
+  "vtex.menu@2.x:submenu#menu05": {
+    "children": ["vtex.menu@2.x:menu#menu05"]
+  },
+  "vtex.menu@2.x:menu#menu05": {
+    "children": [
+      "rich-text#Adocantes",
+      "rich-text#Barrinhas",
+      "rich-text#Biscoitos",
+      "rich-text#Castanhas",
+      "rich-text#Cereais",
+      "rich-text#FarinhasEGraos",
+      "rich-text#FrutasSecas",
+      "rich-text#Granola",
+      "rich-text#PastaDeAmendoim",
+      "rich-text#Whey"
+    ]
+  },
+  "rich-text#Adocantes": {
+    "props": {
+      "text": "[Adoçantes](/saudaveis/adocantes)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Barrinhas": {
+    "props": {
+      "text": "[Barrinhas](/saudaveis/barrinhas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Biscoitos": {
+    "props": {
+      "text": "[Biscoitos](/saudaveis/biscoitos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Castanhas": {
+    "props": {
+      "text": "[Castanhas](/saudaveis/castanhas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Cereais": {
+    "props": {
+      "text": "[Cereais](/saudaveis/cereais)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#FarinhasEGraos": {
+    "props": {
+      "text": "[Farinhas e Grãos](/saudaveis/farinhas-e-graos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#FrutasSecas": {
+    "props": {
+      "text": "[Frutas Secas](/saudaveis/frutas-secas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Granola": {
+    "props": {
+      "text": "[Granola](/saudaveis/granola)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#PastaDeAmendoim": {
+    "props": {
+      "text": "[Pasta de Amendoim](/saudaveis/pasta-de-amendoim)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Whey": {
+    "props": {
+      "text": "[Whey](/saudaveis/whey)",
+      "blockClass":["SubMenu-Item"]
+    }
+  }
+}

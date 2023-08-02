@@ -16,6 +16,40 @@
       "search-not-found-layout"
     ]
   },
+  "search-result-layout.customQuery#home2": {
+    "props": {
+        "blockClass":"ShelfHome",
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#Home",
+      "search-result-layout.mobile#home",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.customQuery#home3": {
+    "props": {
+        "blockClass":"ShelfHome",
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#Home",
+      "search-result-layout.mobile#home",
+      "search-not-found-layout"
+    ]
+  },
   "image#example": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",

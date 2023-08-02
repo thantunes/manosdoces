@@ -1,12 +1,15 @@
 {
-  "vtex.menu@2.x:submenu#Bebidas": {
-    "children": ["vtex.menu@2.x:menu#submenuBebidas"]
+  "vtex.menu@2.x:submenu#menu04": {
+    "children": ["vtex.menu@2.x:menu#menu04"]
   },
-  "vtex.menu@2.x:menu#submenuBebidas": {
+  "vtex.menu@2.x:menu#menu04": {
     "children": [
       "rich-text#Achocolatados",
       "rich-text#Aguas",
+      "rich-text#Cervejas",
       "rich-text#Destilados",
+      "rich-text#Energeticos",
+      "rich-text#Refrigerantes",
       "rich-text#SucosEchas",
       "rich-text#VinhosEespumantes"
     ]
@@ -23,9 +26,27 @@
       "blockClass":["SubMenu-Item"]
     }
   },
+  "rich-text#Cervejas": {
+    "props": {
+      "text": "[Cervejas](/bebidas/cervejas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
   "rich-text#Destilados": {
     "props": {
       "text": "[Destilados](/bebidas/destilados)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Energeticos": {
+    "props": {
+      "text": "[Energéticos](/bebidas/energeticos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Refrigerantes": {
+    "props": {
+      "text": "[Refrigerantes](/bebidas/refrigerantes)",
       "blockClass":["SubMenu-Item"]
     }
   },

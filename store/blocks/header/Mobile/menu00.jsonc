@@ -1,0 +1,48 @@
+{
+    // Menu 00
+    "disclosure-layout#menu00-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": [
+        "disclosure-trigger#menu00-header",
+        "disclosure-content#menu00-header"
+      ]
+    },
+    "disclosure-trigger#menu00-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["rich-text#menu00-Header-Mobile"]
+    },
+    "disclosure-content#menu00-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["flex-layout.col#menu00-header"]
+    },
+    "flex-layout.col#menu00-header": {
+      "props": {
+        "blockClass": ["disclosure-content"],
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "rich-text#Bebidas",
+        "rich-text#Chocolates",
+        "rich-text#Culinaria",
+        "rich-text#Descartaveis",
+        "rich-text#Doces",
+        "rich-text#Higiene",
+        "rich-text#Limpeza",
+        "rich-text#Mercearia",
+        "rich-text#Saudaveis"
+      ]
+    },
+    "rich-text#menu00-Header-Mobile": {
+      "props": {
+        "text": "Departamentos",
+        "blockClass":["MenuTitle-Mobile"]
+      }
+    }
+    // Menu 00
+}

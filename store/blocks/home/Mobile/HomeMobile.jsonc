@@ -21,11 +21,11 @@
       "list-context.image-list#Depart",
       "rich-text#MaisQueridos",
       // "list-context.product-list#ShelfDefault",
-      "search-result-layout.customQuery",
+      "search-result-layout.customQuery#home2",
       "flex-layout.row#images",
       "rich-text#Lançamentos",
       // "list-context.product-list#ShelfDefault",
-      "search-result-layout.customQuery",
+      "search-result-layout.customQuery#home3",
       "rich-text#MelhoresMarcas",
       "list-context.image-list#BrandsSlider",
       "flex-layout.col#NSContent"

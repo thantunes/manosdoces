@@ -121,13 +121,13 @@
       "blockClass":"Header-Mobile"
     },
     "children": [
-      "disclosure-layout#Departamentos-header",
-      "disclosure-layout#Doces-header",
-      "disclosure-layout#Chocolates-header",
-      "disclosure-layout#Bebidas-header",
-      "rich-text#Salgadinhos",
-      "rich-text#Saudaveis",
-      "rich-text#Importados",
+      "disclosure-layout#menu00-header",
+      "disclosure-layout#menu01-header",
+      "disclosure-layout#menu02-header",
+      "disclosure-layout#menu03-header",
+      "disclosure-layout#menu04-header",
+      "disclosure-layout#menu05-header",
+      "disclosure-layout#menu06-header",
       "rich-text#Atacado"
     ]
   }

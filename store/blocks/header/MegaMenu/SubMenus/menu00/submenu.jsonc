@@ -1,0 +1,78 @@
+{
+  "vtex.menu@2.x:submenu#menu00": {
+    "children": ["vtex.menu@2.x:menu#menu00"]
+  },
+  "vtex.menu@2.x:menu#menu00": {
+    "children": [
+      "rich-text#Bebidas",
+      "rich-text#Chocolates",
+      "rich-text#Culinaria",
+      "rich-text#Descartaveis",
+      "rich-text#Doces",
+      "rich-text#Higiene",
+      "rich-text#Limpeza",
+      "rich-text#Mercearia",
+      "rich-text#Saudaveis"
+    ]
+  },
+  "rich-text#Salgadinhos": {
+    "props": {
+      "text": "[Salgadinhos](/salgadinhos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Higiene": {
+    "props": {
+      "text": "[Higiene](/higiene)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Limpeza": {
+    "props": {
+      "text": "[Limpeza](/limpeza)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Mercearia": {
+    "props": {
+      "text": "[Mercearia](/mercearia)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Doces": {
+    "props": {
+      "text": "[Doces](/doces)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Chocolates": {
+    "props": {
+      "text": "[Chocolates](/chocolates)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Bebidas": {
+    "props": {
+      "text": "[Bebidas](/bebidas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Culinaria": {
+    "props": {
+      "text": "[Culinária](/culinaria)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Descartaveis": {
+    "props": {
+      "text": "[Descartáveis](/descartaveis)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Saudaveis": {
+    "props": {
+      "text": "[Saudáveis](/saudaveis)",
+      "blockClass":["SubMenu-Item"]
+    }
+  }
+}

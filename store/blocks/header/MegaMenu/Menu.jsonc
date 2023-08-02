@@ -1,14 +1,14 @@
 {
   "vtex.menu@2.x:menu#Header": {
     "children": [
-      "menu-item#Departamentos",
-      "menu-item#Doces",
-      "menu-item#Chocolates",
-      "menu-item#Bebidas",
-      "menu-item#Salgadinhos",
-      "menu-item#Saudaveis",
-      "menu-item#Importados",
-      "menu-item#Atacado"
+      "menu-item#menu00",
+      "menu-item#menu01",
+      "menu-item#menu02",
+      "menu-item#menu03",
+      "menu-item#menu04",
+      "menu-item#menu05",
+      "menu-item#menu06",
+      "menu-item#menu07"
     ]
   },
   "vtex.menu@2.x:menu#Header-mobile-accordion": {
@@ -17,16 +17,16 @@
       "blockClass": ["category-menu-mobile"]
     },
     "children": [
-      "menu-item#Departamentos",
-      "menu-item#Doces",
-      "menu-item#Chocolates",
-      "menu-item#Bebidas",
-      "menu-item#Salgadinhos",
-      "menu-item#Saudaveis",
-      "menu-item#Importados"
+      "menu-item#menu00",
+      "menu-item#menu01",
+      "menu-item#menu02",
+      "menu-item#menu03",
+      "menu-item#menu04",
+      "menu-item#menu05",
+      "menu-item#menu06"
     ]
   },
-  "menu-item#Departamentos": {
+  "menu-item#menu00": {
     "props": {
       "type": "custom",
       "highlight": false,
@@ -39,9 +39,99 @@
         "text": "Departamentos"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#Departamentos"] // Defining a submenu
+    "blocks": ["vtex.menu@2.x:submenu#menu00"] // Defining a submenu
   },
-  "menu-item#Atacado": {
+  "menu-item#menu01": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/doces",
+        "noFollow": false,
+        "tagTitle": "Doces",
+        "text": "Doces"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu01"] // Defining a submenu
+  },
+  "menu-item#menu02": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates",
+        "noFollow": false,
+        "tagTitle": "Chocolate",
+        "text": "Chocolate"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu02"] // Defining a submenu
+  },
+  "menu-item#menu03": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mercearia",
+        "noFollow": false,
+        "tagTitle": "Mercearia",
+        "text": "Mercearia"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu03"] // Defining a submenu
+  },
+  "menu-item#menu04": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebidas",
+        "noFollow": false,
+        "tagTitle": "Bebidas",
+        "text": "Bebidas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu04"] // Defining a submenu
+  },
+  "menu-item#menu05": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/saudaveis",
+        "noFollow": false,
+        "tagTitle": "Saudáveis",
+        "text": "Saudáveis"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu05"] // Defining a submenu
+  },
+  "menu-item#menu06": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "Depatamento-style",
+      "itemProps": {
+        "type": "internal",
+        "href": "/culinaria",
+        "noFollow": false,
+        "tagTitle": "Culinária",
+        "text": "Culinária"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#menu06"] // Defining a submenu
+  },
+  "menu-item#menu07": {
     "props": {
       "type": "custom",
       "highlight": false,
@@ -55,92 +145,5 @@
       }
     },
     "blocks": [] // Defining a submenu
-  },
-  "menu-item#Doces": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "blockClass": "Depatamento-style",
-      "itemProps": {
-        "type": "internal",
-        "href": "/Doces",
-        "noFollow": false,
-        "tagTitle": "Doces",
-        "text": "Doces"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#Doces"] // Defining a submenu
-  },
-  "menu-item#Chocolates": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "blockClass": "Depatamento-style",
-      "itemProps": {
-        "type": "internal",
-        "href": "/Chocolates",
-        "noFollow": false,
-        "tagTitle": "Chocolates",
-        "text": "Chocolates"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#Chocolates"] // Defining a submenu
-  },
-  "menu-item#Bebidas": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "blockClass": "Depatamento-style",
-      "itemProps": {
-        "type": "internal",
-        "href": "/Bebidas",
-        "noFollow": false,
-        "tagTitle": "Bebidas",
-        "text": "Bebidas"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#Bebidas"] // Defining a submenu
-  },
-  "menu-item#Salgadinhos": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "blockClass": "Depatamento-style",
-      "itemProps": {
-        "type": "internal",
-        "href": "/salgadinhos",
-        "noFollow": false,
-        "tagTitle": "Salgadinhos",
-        "text": "Salgadinhos"
-      }
-    }
-  },
-  "menu-item#Saudaveis": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "blockClass": "Depatamento-style",
-      "itemProps": {
-        "type": "internal",
-        "href": "/saudaveis",
-        "noFollow": false,
-        "tagTitle": "Saudaveis",
-        "text": "Saudáveis"
-      }
-    }
-  },
-  "menu-item#Importados": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "blockClass": "Depatamento-style",
-      "itemProps": {
-        "type": "internal",
-        "href": "/Importados",
-        "noFollow": false,
-        "tagTitle": "Importados",
-        "text": "Importados"
-      }
-    }
   }
 }

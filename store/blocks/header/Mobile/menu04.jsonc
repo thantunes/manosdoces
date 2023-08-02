@@ -1,0 +1,47 @@
+{
+    // Menu 00
+    "disclosure-layout#menu04-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": [
+        "disclosure-trigger#menu04-header",
+        "disclosure-content#menu04-header"
+      ]
+    },
+    "disclosure-trigger#menu04-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["rich-text#menu04-Header-Mobile"]
+    },
+    "disclosure-content#menu04-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["flex-layout.col#menu04-header"]
+    },
+    "flex-layout.col#menu04-header": {
+      "props": {
+        "blockClass": ["disclosure-content"],
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "rich-text#Achocolatados",
+        "rich-text#Aguas",
+        "rich-text#Cervejas",
+        "rich-text#Destilados",
+        "rich-text#Energeticos",
+        "rich-text#Refrigerantes",
+        "rich-text#SucosEchas",
+        "rich-text#VinhosEespumantes"
+      ]
+    },
+    "rich-text#menu04-Header-Mobile": {
+      "props": {
+        "text": "Bebidas",
+        "blockClass":["MenuTitle-Mobile"]
+      }
+    }
+    // Menu 00
+}

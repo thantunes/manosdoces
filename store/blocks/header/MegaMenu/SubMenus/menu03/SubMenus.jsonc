@@ -1,0 +1,86 @@
+{
+  "vtex.menu@2.x:submenu#menu03": {
+    "children": ["vtex.menu@2.x:menu#menu03"]
+  },
+  "vtex.menu@2.x:menu#menu03": {
+    "children": [
+      "rich-text#Amendoins",
+      "rich-text#Batatas",
+      "rich-text#BiscoitoDoce",
+      "rich-text#BiscoitoSalgado",
+      "rich-text#Bolos",
+      "rich-text#FarinhasEFarofas",
+      "rich-text#Geleias",
+      "rich-text#Pipocas02",
+      "rich-text#SalgadinhosESnacks",
+      "rich-text#temperos",
+      "rich-text#torradas"
+    ]
+  },
+  "rich-text#Amendoins": {
+    "props": {
+      "text": "[Amendoins](/mercearia/amendoins)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Batatas": {
+    "props": {
+      "text": "[Batatas](/mercearia/batatas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#BiscoitoDoce": {
+    "props": {
+      "text": "[Biscoito Doce](/mercearia/biscoito-doce)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#BiscoitoSalgado": {
+    "props": {
+      "text": "[Biscoito Salgado](/mercearia/biscoito-salgado)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Bolos": {
+    "props": {
+      "text": "[Bolos](/mercearia/bolos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#FarinhasEFarofas": {
+    "props": {
+      "text": "[Farinhas e Farofas](/mercearia/farinhas-e-Farofas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Geleias": {
+    "props": {
+      "text": "[Geléias](/mercearia/geleias)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Pipocas02": {
+    "props": {
+      "text": "[Pipocas](/mercearia/pipocas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#temperos": {
+    "props": {
+      "text": "[Temperos](/mercearia/temperos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#torradas": {
+    "props": {
+      "text": "[Torradas](/mercearia/torradas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#SalgadinhosESnacks": {
+    "props": {
+      "text": "[Salgadinhos E Snacks](/mercearia/salgadinhos-e-snacks)",
+      "blockClass":["SubMenu-Item"]
+    }
+  }
+}

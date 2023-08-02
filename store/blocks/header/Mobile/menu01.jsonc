@@ -1,0 +1,50 @@
+{
+    // Menu 00
+    "disclosure-layout#menu01-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": [
+        "disclosure-trigger#menu01-header",
+        "disclosure-content#menu01-header"
+      ]
+    },
+    "disclosure-trigger#menu01-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["rich-text#menu01-Header-Mobile"]
+    },
+    "disclosure-content#menu01-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["flex-layout.col#menu01-header"]
+    },
+    "flex-layout.col#menu01-header": {
+      "props": {
+        "blockClass": ["disclosure-content"],
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "rich-text#Balas",
+        "rich-text#BalasDeGelatina",
+        "rich-text#Chicletes",
+        "rich-text#Confeitos",
+        "rich-text#DocesTradicionais",
+        "rich-text#DropsEPastilhas",
+        "rich-text#Gomas",  
+        "rich-text#Marshmallow",  
+        "rich-text#Pipocas", 
+        "rich-text#Pirulitos",  
+        "rich-text#Torrone" 
+      ]
+    },
+    "rich-text#menu01-Header-Mobile": {
+      "props": {
+        "text": "Doces",
+        "blockClass":["MenuTitle-Mobile"]
+      }
+    }
+    // Menu 00
+}

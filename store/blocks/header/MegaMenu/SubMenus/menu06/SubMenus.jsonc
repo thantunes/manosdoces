@@ -1,0 +1,51 @@
+{
+  "vtex.menu@2.x:submenu#menu06": {
+    "children": ["vtex.menu@2.x:menu#menu06"]
+  },
+  "vtex.menu@2.x:menu#menu06": {
+    "children": [
+      "rich-text#Acucares",
+      "rich-text#Chantilly",
+      "rich-text#Chocolates02",
+      "rich-text#Essencias",
+      "rich-text#Formas",
+      "rich-text#PastaAmericana"
+    ]
+  },
+  "rich-text#Acucares": {
+    "props": {
+      "text": "[Açucares](/bebidas/acucares)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Chantilly": {
+    "props": {
+      "text": "[Chantilly](/bebidas/chantilly)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Chocolates02": {
+    "props": {
+      "text": "[Chocolates](/bebidas/chocolates)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Essencias": {
+    "props": {
+      "text": "[Essências](/bebidas/essencias)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Formas": {
+    "props": {
+      "text": "[Formas](/bebidas/Formas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#PastaAmericana": {
+    "props": {
+      "text": "[Pasta Americana](/bebidas/pasta-americana)",
+      "blockClass":["SubMenu-Item"]
+    }
+  }
+}

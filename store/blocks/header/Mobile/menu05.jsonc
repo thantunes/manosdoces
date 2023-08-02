@@ -1,0 +1,49 @@
+{
+    // Menu 00
+    "disclosure-layout#menu05-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": [
+        "disclosure-trigger#menu05-header",
+        "disclosure-content#menu05-header"
+      ]
+    },
+    "disclosure-trigger#menu05-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["rich-text#menu05-Header-Mobile"]
+    },
+    "disclosure-content#menu05-header": {
+      "props":{
+          "blockClass":"Header-Mobile"
+      },
+      "children": ["flex-layout.col#menu05-header"]
+    },
+    "flex-layout.col#menu05-header": {
+      "props": {
+        "blockClass": ["disclosure-content"],
+        "preventVerticalStretch": true
+      },
+      "children": [
+        "rich-text#Adocantes",
+        "rich-text#Barrinhas",
+        "rich-text#Biscoitos",
+        "rich-text#Castanhas",
+        "rich-text#Cereais",
+        "rich-text#FarinhasEGraos",
+        "rich-text#FrutasSecas",
+        "rich-text#Granola",
+        "rich-text#PastaDeAmendoim",
+        "rich-text#Whey"
+      ]
+    },
+    "rich-text#menu05-Header-Mobile": {
+      "props": {
+        "text": "Saudáveis",
+        "blockClass":["MenuTitle-Mobile"]
+      }
+    }
+    // Menu 00
+}

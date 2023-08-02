@@ -1,0 +1,108 @@
+{
+  "vtex.menu@2.x:submenu#menu02": {
+    "children": ["vtex.menu@2.x:menu#menu02"]
+  },
+  "vtex.menu@2.x:menu#menu02": {
+    "children": [
+      "rich-text#Bombons",
+      "rich-text#Caixas",
+      "rich-text#ChocolateCremoso",
+      "rich-text#ChocolateEmPo",
+      "rich-text#ChocolateImportado",
+      "rich-text#Culinario",
+      "rich-text#Granulados",
+      "rich-text#MoedasEBolinhas",
+      "rich-text#TabletesEBarrinhas"
+    ]
+  },
+  "rich-text#Bombons": {
+    "props": {
+      "text": "[Bombons](/chocolates/bombons)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Caixas": {
+    "props": {
+      "text": "[Caixas](/chocolates/caixas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#ChocolateCremoso": {
+    "props": {
+      "text": "[Caixas](/chocolates/chocolate-cremoso)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#ChocolateEmPo": {
+    "props": {
+      "text": "[Chocolate Em Pó](/chocolates/chocolate-em-po)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#ChocolateImportado": {
+    "props": {
+      "text": "[Chocolate Importado](/chocolates/chocolate-importado)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Culinario": {
+    "props": {
+      "text": "[Culinário](/chocolates/culinario)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Granulados": {
+    "props": {
+      "text": "[Granulados](/chocolates/granulados)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#MoedasEBolinhas": {
+    "props": {
+      "text": "[Moedas e Bolinhas](/chocolates/moedas-e-bolinhas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#TabletesEBarrinhas": {
+    "props": {
+      "text": "[Tabletes e Barrinhas](/chocolates/tabletes-e-Barrinhas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Barras": {
+    "props": {
+      "text": "[Barras](/chocolates/barras)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#CaixasePresentes": {
+    "props": {
+      "text": "[Caixas e Presentes](/chocolates/Caixas-e-Presentes)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Confeitos": {
+    "props": {
+      "text": "[Confeitos](/chocolates/confeitos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Cremosos": {
+    "props": {
+      "text": "[Cremosos](/chocolates/Cremosos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Semlactosediet": {
+    "props": {
+      "text": "[Sem lactose/diet](/chocolates/sem-lactose-diet)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Tabletes": {
+    "props": {
+      "text": "[Tabletes](/chocolates/tabletes)",
+      "blockClass":["SubMenu-Item"]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "vtex.menu@2.x:submenu#menu01": {
+    "children": ["vtex.menu@2.x:menu#menu01"]
+  },
+  "vtex.menu@2.x:menu#menu01": {
+    "children": [
+    "rich-text#Balas",
+    "rich-text#BalasDeGelatina",
+    "rich-text#Chicletes",
+    "rich-text#Confeitos",
+    "rich-text#DocesTradicionais",
+    "rich-text#DropsEPastilhas",
+    "rich-text#Gomas",  
+    "rich-text#Marshmallow",  
+    "rich-text#Pipocas", 
+    "rich-text#Pirulitos",  
+    "rich-text#Torrone"  
+    ]
+  },
+  "rich-text#Balas": {
+    "props": {
+      "text": "[Balas](/doces/balas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#BalasDeGelatina": {
+    "props": {
+      "text": "[Balas De Gelatina e Marshmallows](/doces/Balas-de-Gelatina-e-Marshmallows)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Chicletes": {
+    "props": {
+      "text": "[Chicletes](/doces/chicletes)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Confeitos": {
+    "props": {
+      "text": "[Confeitos](/doces/confeitos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#DocesTradicionais": {
+    "props": {
+      "text": "[Doces Tradicionais](/doces/Doces-Tradicionais)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#DropsEPastilhas": {
+    "props": {
+      "text": "[Drops e Pastilhas](/doces/drops-e-pastilhas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Gomas": {
+    "props": {
+      "text": "[Gomas](/doces/gomas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Marshmallow": {
+    "props": {
+      "text": "[Marshmallow](/doces/marshmallow)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Pipocas": {
+    "props": {
+      "text": "[Pipocas](/doces/pipocas)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Pirulitos": {
+    "props": {
+      "text": "[Pirulitos](/doces/Pirulitos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#Torrone": {
+    "props": {
+      "text": "[Torrone](/doces/torrone)",
+      "blockClass":["SubMenu-Item"]
+    }
+  },
+  "rich-text#BolachaseBiscoitos": {
+    "props": {
+      "text": "[Bolachas e Biscoitos](/doces/bolachas-e-biscoitos)",
+      "blockClass":["SubMenu-Item"]
+    }
+  }
+}
