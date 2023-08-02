@@ -1,7 +1,7 @@
 {
   "vendor": "manosdoces",
   "name": "theme",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
